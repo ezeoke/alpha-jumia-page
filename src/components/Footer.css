@@ -5,7 +5,9 @@
   color: white;
   width: 70%;
   margin: auto;
-  font-size: .75rem
+  font-size: .72rem;
+  padding: 1.2rem;
+  /* display: none */
 }
 
 #foot h3 {
@@ -28,4 +30,56 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: -1rem
+}
+
+#pic1 {
+  width: 15rem
+}
+
+#media img {
+  height: 2rem;
+  width: 3rem;
+  margin-right: -.5rem
+}
+
+#bheader {
+  display: flex;
+  background:  #E0E0E0;
+  margin: auto;
+  width: 70%;
+  justify-content: flex-start;
+  align-items: center
+}
+
+#bhead {
+  display: flex
+}
+
+#cart {
+  background: white;
+  height: 8vh;
+  text-align: center
+}
+
+#cart img {
+  height: 3.5rem;
+  width: 3.5rem
+}
+
+#bhead img {
+  height: 2rem;
+  width: 2rem;
+}
+
+#free {
+  background: white;
+}
+
+#bhed {
+  background:  #E0E0E0;
+  width: 100%
+}
+
+#apple {
+  margin-left: 6rem
 }
