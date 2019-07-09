@@ -1,5 +1,16 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+import visa from './pictures/visa.jpg';
+import zippy from './pictures/zippy_1.jpg';
+import master from './pictures/mastercard.jpg';
+import dollar from './pictures/dollar.jpg';
+import gurama from './pictures/Gurama-2.jpg';
+import m from './pictures/m-cash.jpg';
+import max from './pictures/MAX-LOGO_1.png';
+import dhl from './pictures/logo-_071.jpg';
+import verve from './pictures/logo-_031_.jpg';
+import inter from './pictures/logo-_051b.jpg';
+import jumia from './pictures/jumia-pay-logo-footer.jpg';
 
 const Footer = () => {
 return(
@@ -7,6 +18,7 @@ return(
         <div>
         Get access to all offers, discounts and deals!
     </div>
+    <div id='footer'>
     <div id='foot'>
       <div>
       <div> 
@@ -62,9 +74,24 @@ return(
        <h3>CONTACT US ON</h3>
        <p>01 888 1100/0700 600 0000</p>
        <h3>PAYMENT METHODS & DELIVERY PARTNER</h3>
+       <div id='pic'>
+           <img src={master} alt=""/>
+           <img src={visa} alt=""/>
+           <img src={verve} alt=""/>
+           <img src={dollar} alt=""/>
+           <img src={m} alt=""/>
+           <img src={inter} alt=""/>
+           <img src={jumia} alt=""/>
+           <img src={dhl} alt=""/>
+           <img src={max} alt=""/>
+           <img src={gurama} alt=""/>
+           <img src={zippy} alt=""/>
+       </div>
        <h3>JUMIA GROUP</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                    
      </div>
     </div>
+    </div>
+    
     </div>
 )
 }
