@@ -1,9 +1,10 @@
 import React from 'react';
 import jumiaNew from './pictures/jumialogonew.png';
+import './Login.css';
 
 function Login(){
  return(
-  <div>
+  <div id='loginParent'>
     <div id='up'>
         <p>Sell on Jumia</p>
       </div>
@@ -21,6 +22,21 @@ function Login(){
             <h4>Cart</h4>
           </div>
         </div>
+      </div>
+      <div id='log'>
+       <div className='log1'>
+        <h3>Login</h3>
+        <input type="email" placeholder='E-mail'/><br/>
+        <input type="password" placeholder='Password'/>
+        <p>Forgot your password?</p>
+        <button className='loginA'>LOGIN</button><br/>
+        <button className='loginB'>LOGIN WITH FACEBOOK</button>
+       </div>
+       <div className='log1'>
+       <h3>Create your Jumia account</h3>
+       <button className='loginA'>CREATE AN ACCOUNT VIA E-MAIL</button><br/>
+       <button className='loginB'>REGISTER WITH FACEBOOK</button>
+       </div>
       </div>
   </div>
  )

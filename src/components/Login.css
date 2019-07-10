@@ -1,0 +1,39 @@
+#loginParent {
+ background: white
+}
+
+#log {
+ display: flex;
+ width: 60%;
+ margin: auto;
+ padding: 3rem
+}
+
+#log button {
+ width: 80%;
+}
+
+.log1 {
+ width: 50%;
+ text-align: center
+}
+
+.log1 input{
+ width: 80%;
+ border: none;
+ border-bottom: 1px solid rgb(211, 203, 203);
+}
+
+#log h3, .log1 p {
+ color: rgba(250, 132, 15, 0.945)
+}
+
+.loginA {
+ background: rgba(250, 132, 15, 0.945);
+ color: white
+}
+
+.loginB {
+ background: #344F88;
+ color: white
+}
