@@ -11,6 +11,9 @@
 
 #log button {
  width: 80%;
+ margin: 1rem;
+ height: 3rem;
+ border-radius: .4rem
 }
 
 .log1 {
@@ -22,6 +25,7 @@
  width: 80%;
  border: none;
  border-bottom: 1px solid rgb(211, 203, 203);
+ margin: 2rem
 }
 
 #log h3, .log1 p {
@@ -36,4 +40,8 @@
 .loginB {
  background: #344F88;
  color: white
+}
+
+#down {
+ margin-top: 14.8rem
 }
