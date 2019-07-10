@@ -1,0 +1,94 @@
+#up {
+ width: 70%;
+ margin: auto;
+ font-size: .8rem;
+ height: 1.5rem;
+ color: rgba(250, 132, 15, 0.945);
+ display: flex;
+ align-items: center
+}
+
+#create {
+ background: white;
+ margin: auto;
+ margin-top: -1rem;
+ padding-bottom: 5rem
+ /* width: 50%; */
+}
+
+#input2 input{
+ width: 34rem;
+ height: 2.18rem;
+ background: white;
+ border: 1px solid rgb(211, 203, 203);
+ border-radius: .25rem;
+ padding-left: 1rem
+}
+
+#search {
+ background: rgba(250, 132, 15, 0.945);
+ width: 6rem;
+ height: 2.5rem;
+ border-radius: .4rem;
+ margin-left: .5rem
+}
+
+#input1 {
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+ margin: auto;
+ justify-content: space-between;
+}
+
+#input1 input {
+ border: none;
+ border-bottom: 1px solid black;
+ width: 40%;
+ margin: 2rem;
+ padding: .5rem
+}
+
+#label {
+ margin-left: 1.5rem
+}
+
+#label input {
+ width: 17rem
+}
+
+#create h3 {
+ margin-left: 27rem;
+ color: rgba(250, 132, 15, 0.945);
+ padding-top: 3rem;
+ padding-bottom: -2rem;
+}
+
+#hr {
+ width: 50%;
+ margin: auto;
+font-size: .87rem;
+ text-align: center
+}
+
+#hr button {
+ width: 100%;
+ height: 3rem;
+}
+
+#hr #p {
+ text-align: left
+}
+
+#signBtn {
+ background: rgba(250, 132, 15, 0.945);
+ color: white;
+ margin-bottom: 1rem;
+ margin-top: 2rem
+}
+
+#signBtn1 {
+ background: #344F88;
+ color: white;
+ margin-top: 1rem
+}
