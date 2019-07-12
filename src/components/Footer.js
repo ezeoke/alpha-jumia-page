@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import visa from './pictures/visa.jpg';
+import imageCart from './pictures/imageCart.png'
 import zippy from './pictures/zippy_1.jpg';
 import master from './pictures/mastercard.jpg';
 import dollar from './pictures/dollar.jpg';
@@ -28,16 +29,20 @@ const Footer = () => {
     return (
         <div>
             <div id='bhed'>
-            <div id='bheader'>
+                <div id="mother">
+                <div id='bheader'>
                 <div id='cart'>
-                    <img src={cart} alt="" />
+                    <img src={imageCart} alt="" />
                 </div>
 
-                <div>
-                    <p>Get access to all offers, discounts and deals!</p>
+                <div id="secondPart">
+                    <div id="firstTextParent">
+                    <p id="firstText">Get access to all offers, discounts and deals!</p>
+                    </div>
                     <div id='bhead'>
                         <div id='free'>
-                        <h5>FREE DOWNLOAD NOW</h5>
+                        <p id="FreeDownload">FREE DOWNLOAD NOW</p>
+                        <div id="curvedEdge"></div>
                         </div>
                         
                         <div id='apple'>
@@ -48,6 +53,20 @@ const Footer = () => {
 
                 </div>
             </div>
+                <div id="rightSide">
+                    <div id="rowone">
+                        <label id="one">New to JUMIA?</label>
+                    </div>
+                    <div id="rowtwo">
+                   <label id="two">Subscribe to our communications to receive special offers and latest news</label>
+                    </div>
+                    <div id="rowthree">
+                        <input id="input" type="text" />
+                        <input id="button1" type="button" value="Male"/>
+                        <input  id="button2" type="button" value="Female"/>
+                    </div>
+                </div>
+                </div>
             </div>
             <div id='footer'>
                 <div id='foot'>

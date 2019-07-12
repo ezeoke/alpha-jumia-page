@@ -1,0 +1,49 @@
+#house {
+  width: 100%;
+  height: 70vh;
+  background-color: #4d4d4d;
+  margin-top: 30vh;
+}
+#top {
+  width: 80%;
+  height: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+}
+#bottom {
+  width: 80%;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
+#rowA {
+  width: 20%;
+  background-color: red;
+}
+#rowB {
+  width: 20%;
+  background-color: red;
+}
+#rowC {
+  width: 40%;
+  background-color: red;
+}
+.One {
+  color: white;
+  font-size: 13px;
+}
+.Two {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  line-height: 5px;
+}
+.Three {
+}
+.Four {
+}
