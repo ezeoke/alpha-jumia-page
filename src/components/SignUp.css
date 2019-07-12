@@ -8,6 +8,38 @@
  align-items: center
 }
 
+/* #header2 {
+ background: white;
+ height: 4.5rem;
+ display: flex;
+ align-items: center;
+ border-bottom: 1px solid #F5F5F5
+} */
+
+@media only screen and (max-width: 480px){
+ /* #up {
+  width: 100%;
+  display: block
+ } */
+
+ #resp {
+  display: block;
+  /* max-width: 50%; */
+ }
+
+ /* #header2 {
+ display: block;
+ width:20%
+ } */
+
+ body,html {
+  /* overflow-x:  hidden */
+  padding: 0;
+  margin: 0
+ }
+ 
+}
+
 #create {
  background: white;
  margin: auto;
