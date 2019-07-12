@@ -22,11 +22,40 @@ import youtube from './pictures/youtube-logotype.svg';
 import insta from './pictures/instagram-logo.svg';
 import twitter from './pictures/twitter-logo-button.svg';
 import cart from './pictures/shopping-cart.svg';
+import {Redirect} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
-function Login(){
- return(
-  <div id='loginParent'>
-    <div id='up'>
+class Login extends React.Component {
+  state = {
+    sandra : '',
+    learn : '',
+    login: false
+  }
+
+  onChange = (e) => {
+    this.setState({
+        [e.target.name]: e.target.value
+    })
+    console.log(e.target.value)
+  }
+
+  onHandleChange = () =>{
+    if(this.state.sandra === 'learn@gmail.com' && this.state.learn === '123'){
+      this.setState(() => {
+        return  {
+            login: true
+          }
+        })
+    }
+  }
+
+  render() {
+    if(this.state.login){
+     return (<Redirect to='/signup'></Redirect>)
+    }
+    return (
+      <div>
+      <div id='up'>
         <p>Sell on Jumia</p>
       </div>
       <div id='header2'>
@@ -38,120 +67,123 @@ function Login(){
             <button id='search'>SEARCH</button>
           </div>
           <div id='need'>
-            <h4>Login</h4>
+            <NavLink to='/login'><h4>Login</h4></NavLink>
             <h4>Help </h4>
             <h4>Cart</h4>
           </div>
         </div>
       </div>
-      <div id='log'>
-       <div className='log1'>
-        <h3>Login</h3>
-        <input type="email" placeholder='E-mail'/><br/>
-        <input type="password" placeholder='Password'/>
-        <p>Forgot your password?</p>
-        <button className='loginA'>LOGIN</button><br/>
-        <button className='loginB'>LOGIN WITH FACEBOOK</button>
+       <div id='Plog'>
+       <div id='log'>
+          <div className='log1'>
+            <h3>Login</h3>
+            <input type="email" placeholder='E-mail' name='sandra' value={this.state.sandra} onChange={this.onChange}/><br />
+            <input type="password" placeholder='Password' name='learn' value={this.state.learn} onChange={this.onChange}/>
+            <p>Forgot your password?</p>
+            <button className='loginA' onClick={this.onHandleChange}>LOGIN</button><br />
+            <button className='loginB'>LOGIN WITH FACEBOOK</button>
+          </div>
+          <div className='log1'>
+            <h3>Create your Jumia account</h3>
+            <div id='down'>
+              <button className='loginA'>CREATE AN ACCOUNT VIA E-MAIL</button><br />
+              <button className='loginB'>REGISTER WITH FACEBOOK</button>
+            </div>
+          </div>
+        </div>
        </div>
-       <div className='log1'>
-       <h3>Create your Jumia account</h3>
-       <div id='down'>
-       <button className='loginA'>CREATE AN ACCOUNT VIA E-MAIL</button><br/>
-       <button className='loginB'>REGISTER WITH FACEBOOK</button>
-       </div>
-       </div>
-      </div>
-      <div id='footer'>
-                <div id='foot'>
-                    <div>
-                        <div>
-                            <h3>LET US HELP YOU</h3>
-                            <p>Help Center</p>
-                            <p>Warranty</p>
-                            <p>Service Centers</p>
-                            <p>Contact Us</p>
-                            <p>How to Shop 0n jumia</p>
-                            <p>Shipping & Delivery</p>
-                            <p>Return Policy</p>
-                            <p>Corporate & Bulk Purchase</p>
-                            <p>Jumia Mobile Apps</p>
-                            <p>Jumia Bot(Beta)</p>
-                        </div>
-                        <div>
-                            <h3>MAKE MONEY WITH US</h3>
-                            <p>Sell on Jumia</p>
-                            <p>Become an Affiliate Partner</p>
-                            <p>Become a Sales Consultant</p>
-                            <p>Become a Jumia Vendor Service Provider</p>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>GET TO KNOW US</h3>
-                        <p>Careers</p>
-                        <p>About Us</p>
-                        <p>Jumia Express</p>
-                        <p>Shipped From Overseas</p>
-                        <p>Jumia Prime </p>
-                        <p>Terms and Conditions</p>
-                        <p>Privacy Policy</p>
-                        <p>Economy Postal Shipping</p>
-                    </div>
-
-                    <div>
-                        <h3>JUMIA INTERNATIONAL</h3>
-                        <p>Algeria</p>
-                        <p>Cameroun</p>
-                        <p>Egypt</p>
-                        <p>Ghana</p>
-                        <p>Ivory Coast</p>
-                        <p>Kenya</p>
-                        <p>Morocco</p>
-                        <p>Senegal</p>
-                        <p>Tanzania</p>
-                        <p>Tunisia</p>
-                        <p>Uganda</p>
-                    </div>
-                    <div>
-                        <h3>JOIN US ON</h3>
-                        <div id='media'>
-                            <img src={face} alt="" />
-                            <img src={twitter} alt="" />
-                            <img src={youtube} alt="" />
-                            <img src={cart} alt="" />
-                            <img src={insta} alt="" />
-                            <img src={twitter} alt="" />
-                        </div>
-                        <h3>CONTACT US ON</h3>
-                        <p>01 888 1100/0700 600 0000</p>
-                        <h3>PAYMENT METHODS & DELIVERY PARTNER</h3>
-                        <div id='pic'>
-                            <img src={master} alt="" />
-                            <img src={visa} alt="" />
-                            <img src={verve} alt="" />
-                            <img src={dollar} alt="" />
-                            <img src={m} alt="" />
-                            <img src={inter} alt="" />
-                            <img src={jumia} alt="" />
-                            <img src={dhl} alt="" />
-                            <img src={max} alt="" />
-                            <img src={gurama} alt="" />
-                            <img src={zippy} alt="" />
-                        </div>
-                        <h3>JUMIA GROUP</h3>
-                        <div id='pic1'>
-                            <img src={travel} alt="" />
-                            <img src={food} alt="" />
-                            <img src={deals} alt="" />
-                            <img src={house} alt="" />
-                            <img src={jum1} alt="" />
-                        </div>
-                    </div>
-                </div>
+        <div id='footer'>
+          <div id='foot'>
+            <div>
+              <div>
+                <h3>LET US HELP YOU</h3>
+                <p>Help Center</p>
+                <p>Warranty</p>
+                <p>Service Centers</p>
+                <p>Contact Us</p>
+                <p>How to Shop 0n jumia</p>
+                <p>Shipping & Delivery</p>
+                <p>Return Policy</p>
+                <p>Corporate & Bulk Purchase</p>
+                <p>Jumia Mobile Apps</p>
+                <p>Jumia Bot(Beta)</p>
+              </div>
+              <div>
+                <h3>MAKE MONEY WITH US</h3>
+                <p>Sell on Jumia</p>
+                <p>Become an Affiliate Partner</p>
+                <p>Become a Sales Consultant</p>
+                <p>Become a Jumia Vendor Service Provider</p>
+                <p></p>
+              </div>
+            </div>
+            <div>
+              <h3>GET TO KNOW US</h3>
+              <p>Careers</p>
+              <p>About Us</p>
+              <p>Jumia Express</p>
+              <p>Shipped From Overseas</p>
+              <p>Jumia Prime </p>
+              <p>Terms and Conditions</p>
+              <p>Privacy Policy</p>
+              <p>Economy Postal Shipping</p>
             </div>
 
-  </div>
- )
+            <div>
+              <h3>JUMIA INTERNATIONAL</h3>
+              <p>Algeria</p>
+              <p>Cameroun</p>
+              <p>Egypt</p>
+              <p>Ghana</p>
+              <p>Ivory Coast</p>
+              <p>Kenya</p>
+              <p>Morocco</p>
+              <p>Senegal</p>
+              <p>Tanzania</p>
+              <p>Tunisia</p>
+              <p>Uganda</p>
+            </div>
+            <div>
+              <h3>JOIN US ON</h3>
+              <div id='media'>
+                <img src={face} alt="" />
+                <img src={twitter} alt="" />
+                <img src={youtube} alt="" />
+                <img src={cart} alt="" />
+                <img src={insta} alt="" />
+                <img src={twitter} alt="" />
+              </div>
+              <h3>CONTACT US ON</h3>
+              <p>01 888 1100/0700 600 0000</p>
+              <h3>PAYMENT METHODS & DELIVERY PARTNER</h3>
+              <div id='pic'>
+                <img src={master} alt="" />
+                <img src={visa} alt="" />
+                <img src={verve} alt="" />
+                <img src={dollar} alt="" />
+                <img src={m} alt="" />
+                <img src={inter} alt="" />
+                <img src={jumia} alt="" />
+                <img src={dhl} alt="" />
+                <img src={max} alt="" />
+                <img src={gurama} alt="" />
+                <img src={zippy} alt="" />
+              </div>
+              <h3>JUMIA GROUP</h3>
+              <div id='pic1'>
+                <img src={travel} alt="" />
+                <img src={food} alt="" />
+                <img src={deals} alt="" />
+                <img src={house} alt="" />
+                <img src={jum1} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    )
+  }
 }
 
 export default Login

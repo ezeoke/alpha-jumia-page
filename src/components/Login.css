@@ -2,9 +2,13 @@
  background: white
 }
 
+#Plog {
+ background: white
+}
+
 #log {
  display: flex;
- width: 60%;
+ width: 70%;
  margin: auto;
  padding: 3rem
 }
