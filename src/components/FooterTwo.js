@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./FooterTwo.css"
 
+
 class FooterTwo extends Component {
     state = {  }
     render() { 
@@ -25,7 +26,21 @@ class FooterTwo extends Component {
                 <div class="four"></div>
              </div>
             <div id="rowB">
+            <div class="One">
+                    <h4>ABOUT JUMIA</h4>
+                </div>
+                <div class="Two">
+                     JUMIA
 
+                    <p>About us</p>
+                    <p>Jumia careers</p>
+                   <p>Jumia Express</p>
+                    <p>Jumia Global</p>
+                    <p>Terms and Conditions</p>
+                    <p>Privacy policy</p>
+                    <p>Ramadan Shop</p>
+                    <p>Mobile Week</p>
+                    </div>
              </div>
             <div id="rowC">
 

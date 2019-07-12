@@ -3,6 +3,7 @@
   height: 70vh;
   background-color: #4d4d4d;
   margin-top: 30vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #top {
   width: 80%;
@@ -35,15 +36,18 @@
 }
 .One {
   color: white;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight:600;
 }
 .Two {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   line-height: 5px;
+  font-weight:500;
 }
 .Three {
+
 }
 .Four {
 }

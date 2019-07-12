@@ -1,5 +1,6 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+
+// import {NavLink} from 'react-router-dom';
 import jumiaNew from './pictures/jumialogonew.png';
 import './SignUp.css';
 import visa from './pictures/visa.jpg';
@@ -41,7 +42,7 @@ const SignUp = () => {
             <button id='search'>SEARCH</button>
           </div>
           <div id='need'>
-            <NavLink to='/login'><h4>Login</h4></NavLink>
+            {/* <NavLink to='/login'><h4>Login</h4></NavLink> */}
             <h4>Help </h4>
             <h4>Cart</h4>
           </div>
@@ -66,7 +67,7 @@ const SignUp = () => {
           </div>
           <button id='signBtn1'>REGISTER WITH FACEBOOK</button>
           <p>Already have an account?</p>
-          <NavLink to='/login'>LOGIN</NavLink>
+          {/* <NavLink to='/login'>LOGIN</NavLink> */}
         </div>
       </div>
       <div id='footer'>

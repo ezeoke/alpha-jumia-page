@@ -22,8 +22,8 @@ import youtube from './pictures/youtube-logotype.svg';
 import insta from './pictures/instagram-logo.svg';
 import twitter from './pictures/twitter-logo-button.svg';
 import cart from './pictures/shopping-cart.svg';
-import {Redirect} from 'react-router-dom';
-import {NavLink} from 'react-router-dom';
+// import {Redirect} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 
 class Login extends React.Component {
   state = {
@@ -51,7 +51,7 @@ class Login extends React.Component {
 
   render() {
     if(this.state.login){
-     return (<Redirect to='/signup'></Redirect>)
+    //  return (<Redirect to='/signup'></Redirect>)
     }
     return (
       <div>
@@ -67,7 +67,7 @@ class Login extends React.Component {
             <button id='search'>SEARCH</button>
           </div>
           <div id='need'>
-            <NavLink to='/login'><h4>Login</h4></NavLink>
+            {/* <NavLink to='/login'><h4>Login</h4></NavLink> */}
             <h4>Help </h4>
             <h4>Cart</h4>
           </div>
