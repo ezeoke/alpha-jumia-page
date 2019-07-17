@@ -156,9 +156,6 @@ font-size: .73rem
 @media only screen and (max-width: 480px){
  body {
   width: 100%;
-  /* overflow-x: hidden */
-  padding: 0;
-  margin: 0
  }
 
  #header1 {
@@ -166,7 +163,7 @@ font-size: .73rem
  }
 
 #header2 {
- height: 10rem;
+ height: 3%;
  width: 100%;
  background: #F5F5F5
 }
@@ -177,23 +174,19 @@ font-size: .73rem
 }
 
 #header-input input {
- width: 23rem;
+ width: 80%;
  font-size: .75rem;
  /* padding-right: .5rem; */
- margin: auto;
+ /* margin: auto; */
  padding-left: 1rem;
  margin-bottom: .5rem;
  background: white;
 }
 
-#header-input button {
- /* display: inline-block; */
-}
-
 #header2 #header2i {
  display: flex;
  flex-direction: column;
- height: 10rem;
+ height: 3%;
  flex-wrap: wrap;
  width: 100%
 }
@@ -207,5 +200,12 @@ width: 7rem
 }
 
 #header3 {
+ display: none
+}
+
+#header2 #header-input {
+ display: flex;
+ align-items: center;
+ width: 100%;
 }
 }

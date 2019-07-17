@@ -69,3 +69,51 @@
  justify-content: space-between;
  align-items: center
 }
+
+@media only screen and (max-width: 480px){
+ #banMain {
+  width:80%
+ }
+
+ #card {
+  width: 100%;
+  display: flex;
+  justify-content: center
+ }
+
+ #banPic {
+  width: 24%;
+  font-size: 70%
+ }
+
+ #banPic img {
+  width: 100%
+ }
+
+ #stockHolder {
+  width: 80%
+ }
+
+ #stock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+ }
+
+ #stockCard {
+  width: 30%;
+  font-size: 70%
+ }
+
+ #stocker {
+  font-size: 60%
+ }
+
+ #stockP {
+  width: 17%
+ }
+
+ #stockHeader {
+  width: 80%
+ }
+}

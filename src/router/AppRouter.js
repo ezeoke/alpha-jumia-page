@@ -13,7 +13,6 @@ function AppRouter() {
           <Route path='/' component={Home} exact={true}/>
           <Route path='/login' component={Login} />
           <Route path='/signup' component={SignUp} />
-          {/* <Route path='./' component={Home}/> */}
           <Route component={NotFoundPage}/>
         </Switch>
       </BrowserRouter>
