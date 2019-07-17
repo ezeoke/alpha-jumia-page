@@ -24,48 +24,48 @@ import twitter from './pictures/twitter-logo-button.svg';
 import cart from './pictures/shopping-cart.svg';
 import apple from './pictures/ios.png';
 import android from './pictures/android.png';
+import mtn from './pictures/mtn.png';
+import axa from './pictures/axa-mansard-2.png';
 
 const Footer = () => {
     return (
         <div>
             <div id='bhed'>
-                <div id="mother">
                 <div id='bheader'>
-                <div id='cart'>
-                    <img src={imageCart} alt="" />
-                </div>
-
-                <div id="secondPart">
-                    <div id="firstTextParent">
-                    <p id="firstText">Get access to all offers, discounts and deals!</p>
-                    </div>
-                    <div id='bhead'>
-                        <div id='free'>
-                        <p id="FreeDownload">FREE DOWNLOAD NOW</p>
-                        <div id="curvedEdge"></div>
-                        </div>
-                        
-                        <div id='apple'>
-                            <img src={apple} alt="" />
-                            <img src={android} alt="" />
-                        </div>
+                    <div id='cart'>
+                        <img src={imageCart} alt="" />
                     </div>
 
+                    <div id="secondPart">
+                        <div id="firstTextParent">
+                            <p id="firstText">Get access to all offers, discounts and deals!</p>
+                        </div>
+                        <div id='bhead'>
+                            <div id='free'>
+                                <p id="FreeDownload">FREE DOWNLOAD NOW</p>
+                                <div id="curvedEdge"></div>
+                            </div>
+
+                            <div id='apple'>
+                                <img src={apple} alt="" />
+                                <img src={android} alt="" />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
                 <div id="rightSide">
                     <div id="rowone">
                         <label id="one">New to JUMIA?</label>
                     </div>
                     <div id="rowtwo">
-                   <label id="two">Subscribe to our communications to receive special offers and latest news</label>
+                        <label id="two">Subscribe to our communications to receive special offers and latest news</label>
                     </div>
                     <div id="rowthree">
                         <input id="input" type="text" />
-                        <input id="button1" type="button" value="Male"/>
-                        <input  id="button2" type="button" value="Female"/>
+                        <input id="button1" type="button" value="Male" />
+                        <input id="button2" type="button" value="Female" />
                     </div>
-                </div>
                 </div>
             </div>
             <div id='footer'>
@@ -152,6 +152,10 @@ const Footer = () => {
                             <img src={deals} alt="" />
                             <img src={house} alt="" />
                             <img src={jum1} alt="" />
+                            <div id='footer-header1'>
+                                <span>In Partnership with</span> <img src={mtn} alt='mtnLogo' /> &
+        <img src={axa} alt="axa-mansard" />
+                            </div>
                         </div>
                     </div>
                 </div>

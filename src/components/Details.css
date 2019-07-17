@@ -1,0 +1,15 @@
+#details {
+ background: white;
+ width: 69%;
+ margin: auto;
+ font-size: .8rem;
+ padding: 1rem;
+ margin-top: 1.5rem;
+ color: #66666A;
+ line-height: 1.05rem
+}
+
+#details a {
+ color: black
+}
+

@@ -1,7 +1,14 @@
+#stockHolder {
+ width: 70%;
+ margin: auto ;
+ margin-top: 1.5rem;  
+}
+
 #stock {
  display: flex;
  width: 100%;
  justify-content: space-evenly;
+ background: white;
 }
 
 #stock img {
@@ -10,7 +17,7 @@
 }
 
 #stockCard {
- width: 16%;
+ width: 16.47%;
  height: 20rem;
  background: white;
  font-size: .85rem
@@ -18,7 +25,7 @@
 
 #stock h3 {
  margin-top: .4rem;
- margin-bottom: -.8rem
+ margin-bottom: -.8rem                                                                                                                                                         
 }
 
 #stockTitle {
@@ -34,23 +41,31 @@
  width: 2rem
 }
 
+#stocker {
+ margin-bottom: -1rem;
+ border-radius: .2rem;
+}
+
 #stockHead {
- background: #808080;
  height: 3rem;
- margin-top: 1.5rem;
- border-radius: .2rem
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: .8rem
 }
 
 #stockHeader {
  display: flex;
- width: 97%;
- margin: auto;
- justify-content: space-between
+ align-items: center;
+}
+
+#stockHeader h3 {
+ margin-right: .3rem
 }
 
 #stockP {
- display: flex;
- align-items: center;
  width: 5rem;
- justify-content: space-between
+ display: flex;
+ justify-content: space-between;
+ align-items: center
 }

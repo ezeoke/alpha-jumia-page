@@ -1,12 +1,16 @@
 #b1-div {
  display: flex;
- width: 100%;
+ /* width: 100%; */
  margin-top: 1.5rem;
  background: white;
+ justify-content: space-evenly;
+ width: 70%;
+ margin: auto   ;
+ margin-top: 1.5rem;
 }
 
 #b1-div img {
- width: 98.8%;
+ width: 49.4%;
  height: 20rem;
  border-radius: .2rem
 }
