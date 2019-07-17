@@ -2,29 +2,7 @@ import React from 'react';
 import FooterTwo from './FooterTwo'
 import jumiaNew from './pictures/jumialogonew.png';
 import './Login.css';
-import visa from './pictures/visa.jpg';
-import zippy from './pictures/zippy_1.jpg';
-import master from './pictures/mastercard.jpg';
-import dollar from './pictures/dollar.jpg';
-import gurama from './pictures/Gurama-2.jpg';
-import m from './pictures/m-cash.jpg';
-import max from './pictures/MAX-LOGO_1.png';
-import dhl from './pictures/logo-_071.jpg';
-import verve from './pictures/logo-_031_.jpg';
-import inter from './pictures/logo-_051b.jpg';
-import jumia from './pictures/jumia-pay-logo-footer.jpg';
-import travel from './pictures/logo-white-travel-small.png';
-import food from './pictures//logo-white-food-small.png';
-import deals from './pictures/logo-white-deals-small.png';
-import house from './pictures/logo-white-house-small.png';
-import jum1 from './pictures/jumia1.png';
-import face from './pictures/facebook-logo-button.svg';
-import youtube from './pictures/youtube-logotype.svg';
-import insta from './pictures/instagram-logo.svg';
-import twitter from './pictures/twitter-logo-button.svg';
-import cart from './pictures/shopping-cart.svg';
 import {Redirect} from 'react-router-dom';
-// import {NavLink} from 'react-router-dom';
 
 class Login extends React.Component {
   state = {
@@ -56,7 +34,7 @@ class Login extends React.Component {
     }
     return (
       <div>
-      <div id='up'>
+      <div id='login-up'>
         <p>Sell on Jumia</p>
       </div>
       <div id='login-header2'>

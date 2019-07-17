@@ -71,7 +71,7 @@ const Footer = () => {
             <div id='footer'>
                 <div id='foot'>
                     <div>
-                        <div>
+                        <div id='footer-help'>
                             <h3>LET US HELP YOU</h3>
                             <p>Help Center</p>
                             <p>Warranty</p>
@@ -84,7 +84,7 @@ const Footer = () => {
                             <p>Jumia Mobile Apps</p>
                             <p>Jumia Bot(Beta)</p>
                         </div>
-                        <div>
+                        <div className='footer-help'>
                             <h3>MAKE MONEY WITH US</h3>
                             <p>Sell on Jumia</p>
                             <p>Become an Affiliate Partner</p>
@@ -93,19 +93,21 @@ const Footer = () => {
                             <p></p>
                         </div>
                     </div>
-                    <div>
+                    <div className='footer-help'>
                         <h3>GET TO KNOW US</h3>
-                        <p>Careers</p>
-                        <p>About Us</p>
-                        <p>Jumia Express</p>
-                        <p>Shipped From Overseas</p>
-                        <p>Jumia Prime </p>
-                        <p>Terms and Conditions</p>
-                        <p>Privacy Policy</p>
-                        <p>Economy Postal Shipping</p>
+                        {/* <div className='fHelp'> */}
+                            <p>Careers</p>
+                            <p>About Us</p>
+                            <p>Jumia Express</p>
+                            <p>Shipped From Overseas</p>
+                            <p>Jumia Prime </p>
+                            <p>Terms and Conditions</p>
+                            <p>Privacy Policy</p>
+                            <p>Economy Postal Shipping</p>
+                        {/* </div> */}
                     </div>
 
-                    <div>
+                    <div className='footer-help'>
                         <h3>JUMIA INTERNATIONAL</h3>
                         <p>Algeria</p>
                         <p>Cameroun</p>
@@ -119,7 +121,7 @@ const Footer = () => {
                         <p>Tunisia</p>
                         <p>Uganda</p>
                     </div>
-                    <div>
+                    <div className='footer-help'>
                         <h3>JOIN US ON</h3>
                         <div id='media'>
                             <img src={face} alt="" />

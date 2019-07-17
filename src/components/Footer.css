@@ -213,3 +213,28 @@ margin-left:0px;
  #footer-header1 img {
   padding: .4rem
  }
+
+ @media only screen and (max-width: 480px){
+  #bhed {
+    display: none
+  }
+
+  #footer {
+    width: 100%;
+    margin: auto
+  }
+
+  .footer-help {
+    display: none
+  }
+
+  #footer-help {
+    display: block;
+    position: relative;
+    left: 35%
+  }
+
+  /* #fHelp {
+    display: flex
+  } */
+}

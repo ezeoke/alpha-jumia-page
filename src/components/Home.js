@@ -453,7 +453,7 @@ class Home extends React.Component {
 
     const stock5 = {
       color: 'purple',
-      header: 'Deals on Women Accessories',
+      header: 'Deals on beauty sets',
       header1: '| Up to 30% Off',
       stock: [
         {
