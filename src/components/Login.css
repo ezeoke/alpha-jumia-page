@@ -122,10 +122,6 @@
  margin-top: 14.8rem
 }
 
-#loginUp {
-
-}
-
 #login-up {
  width: 70%;
  margin: auto;
@@ -171,6 +167,83 @@
   align-items: center;
   padding: 0;
   margin-top: 2%
+ }
+
+ .log1 {
+  width: 100%
+ }
+
+ .log1 input {
+  width: 70%
+ }
+
+ #down {
+  margin: 0
+ }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #login-header2 {
+  height: 3%;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center
+ }
+ 
+ #login-input {
+  display: flex;
+  width: 60%;
+ }
+ 
+ #login-input input {
+  width: 65%;
+  font-size: 50%;
+  padding-right: .5rem;
+  margin: auto;
+  padding-left: 2%;
+  margin-bottom: 1%;
+  background: #f5f5f5;
+ }
+ 
+ #login-input button {
+  width: 26%;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ #login-header2i {
+  display: flex;
+  height: 2%;
+  width: 90%
+ }
+ 
+ #login-header2 img {
+ width: 7rem
+ }
+ 
+ #login-need {
+  font-size: 65%;
+  padding: 2%
+ }
+
+ #Plog {
+  background: #F5F5F5;
+  width: 100%;
+  border-top: 2px solid #F5F5F5
+ }
+
+ #log {
+  display: flex;
+  flex-direction: column;
+  width: 90%;;
+  background: white;
+  align-items: center;
+  padding: 0;
+  margin-top: 2%;
+  margin: auto
  }
 
  .log1 {

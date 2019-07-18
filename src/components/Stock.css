@@ -71,25 +71,6 @@
 }
 
 @media only screen and (max-width: 480px){
- #banMain {
-  width:100%
- }
-
- #card {
-  width: 100%;
-  display: flex;
-  justify-content: center
- }
-
- #banPic {
-  width: 24%;
-  font-size: 70%
- }
-
- #banPic img {
-  width: 100%
- }
-
  #stockHolder {
   width: 100%
  }
@@ -110,7 +91,9 @@
  }
 
  #stockP {
-  width: 17%
+  width: 15%;
+  display: flex;
+   justify-content: space-around
  }
 
  #stockHeader {
@@ -126,3 +109,43 @@
   width: 1.5rem;
 }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  #stockHolder {
+   width: 90%
+  }
+ 
+  #stock {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%
+  }
+ 
+  #stockCard {
+   width: 30%;
+   font-size: 70%
+  }
+ 
+  #stocker {
+   font-size: 60%
+  }
+ 
+  #stockP {
+   width: 11%;
+   display: flex;
+   justify-content: space-around
+  }
+ 
+  #stockHeader {
+   width: 80%
+  }
+ 
+  #stockDiscount {
+   position: relative;
+   top: 17px;
+   left: 0px;
+   background: rgb(248, 226, 200);
+   z-index: 2;
+   width: 1.5rem;
+ }
+ }

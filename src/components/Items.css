@@ -35,3 +35,45 @@ border: .009px solid rgb(211, 203, 203);
 text-align: center;
 font-size: .85rem
 }
+
+@media only screen and (max-width: 480px){
+ #banMain {
+  width:100%
+ }
+
+ #card {
+  width: 100%;
+  display: flex;
+  justify-content: center
+ }
+
+ #banPic {
+  width: 24%;
+  font-size: 70%
+ }
+
+ #banPic img {
+  width: 100%
+ }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #banMain {
+  width:90%
+ }
+
+ #card {
+  width: 100%;
+  display: flex;
+  justify-content: center
+ }
+
+ #banPic {
+  width: 24%;
+  font-size: 70%
+ }
+
+ #banPic img {
+  width: 100%
+ }
+}

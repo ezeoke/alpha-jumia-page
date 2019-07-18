@@ -5,6 +5,7 @@
   margin-top: 1vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 #top {
   width: 84%;
   height: 85%;
@@ -12,15 +13,14 @@
   margin-right: auto;
   /* background-color: aquamarine; */
   border-bottom: 1px solid rgb(121, 120, 120);
-  
 }
+
 a:hover{
   color:white;
   text-decoration:underline;
   border-bottom:1px solid rgb(121, 120, 120);
-
-
 }
+
 a:link{
   color:white;
   text-decoration: none;
@@ -206,4 +206,24 @@ height:100%;
     line-height: normal;
     font-size: 9px
   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #house {
+    font-size: 79%;
+    height: 20%;
+  }
+
+  .Two, #endbox1, #endbox2 {
+    font-size:70%;
+    line-height: normal;
+}
+
+#best {
+  padding-top: 1%
+}
+
+.One {
+  font-size: 74%
+}
 }

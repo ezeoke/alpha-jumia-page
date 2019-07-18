@@ -49,4 +49,18 @@
  #starter {
   width: 90%
   }
+
+  #starter p {
+   display: none
+  }
+
+  #starter1 {
+   width: 90%;
+   margin: auto
+  }
+
+  #starter input {
+   width: 30%;
+   padding-left: 1%
+  }
 }

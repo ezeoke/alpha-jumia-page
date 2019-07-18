@@ -233,3 +233,52 @@ margin-left:0px;
     justify-content: center
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  #bhed {
+    width: 100%;
+  }
+
+  #bheader {
+    width: 50%
+  }
+
+  #bhed #button1, #bhed #button2 {
+    width: 50%;
+    margin-left: 2%
+  }
+
+  #bhed #two {
+    font-size: 53%
+  }
+
+  #footer {
+    width: 100%;
+    margin: auto
+  }
+
+  #foot {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 66%;
+    line-height: 125%
+  }
+
+  #foot h3 {
+    font-size: 88%
+  }
+
+  #pic img {
+    width: 10%
+  }
+
+  #media {
+    display: flex;
+    justify-content: space-evenly
+  }
+
+  #media img {
+   width: 13%
+  }
+}

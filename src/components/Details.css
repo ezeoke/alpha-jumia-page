@@ -18,3 +18,14 @@
   display: none
  }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #details {
+  width: 85%;
+  line-height: 155%
+ }
+
+ #details h1 {
+  font-size: 150%
+ }
+}

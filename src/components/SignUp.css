@@ -181,7 +181,8 @@ padding-top: .6%
 }
 
 #signup-input1 {
- width: 100%
+ width: 100%;
+ justify-content: center;
 }
 
 #signup-input1 input {
@@ -199,6 +200,87 @@ padding-top: .6%
 #hr #p {
  display: none
 }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #signup-header2 {
+  height: 3%;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center
+ }
+ 
+ #signup-input {
+  display: flex;
+  width: 60%;
+ }
+ 
+ #signup-input input {
+  width: 65%;
+  font-size: 50%;
+  padding-right: .5rem;
+  margin: auto;
+  padding-left: 2%;
+  margin-bottom: 1%;
+  background: #f5f5f5;
+ }
+ 
+ #signup-input button {
+  width: 26%;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ #signup-header2i {
+  display: flex;
+  height: 2%;
+  width: 90%
+ }
+ 
+ #signup-header2 img {
+ width: 7rem
+ }
+ 
+ #signup-need {
+  font-size: 65%;
+  padding: 2%
+ }
+
+ #create {
+  width: 90%;
+ }
+ 
+ #create h3 {
+  margin-left: 0rem;
+ padding-top: 0rem;
+ padding-bottom: 0rem;
+ text-align: center;
+ padding-top: .6%
+ }
+ 
+ #signup-input1 {
+  width: 100%;
+  justify-content: center;
+ }
+ 
+ #signup-input1 input {
+  width: 70%
+ }
+ 
+ #label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto
+ }
+ 
+ #hr #p {
+  display: none
+ }
 }
 
  
