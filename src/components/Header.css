@@ -25,7 +25,7 @@ box-sizing: border-box
  border-bottom: 1px solid #F5F5F5
 }
 
-#header2 #header2i {
+#header2i {
  display: flex;
  width: 80%;
  margin: auto;
@@ -34,7 +34,7 @@ box-sizing: border-box
  height: 4rem;
 }
 
-#header2 #need {
+#need {
  display: flex;
  height: 1rem;
  justify-content: space-between;
@@ -44,7 +44,7 @@ box-sizing: border-box
  color: rgb(121, 112, 112)
 }
 
-#header2 #need span {
+#need span {
  font-weight: bold;
  color: black
 }
@@ -54,7 +54,7 @@ box-sizing: border-box
  width: 11rem
 }
 
-#header2 #header-input {
+#header-input {
  display: flex;
  align-items: center
 }
@@ -67,7 +67,7 @@ box-sizing: border-box
  padding-left: 1rem
 }
 
-#header2 #header-input button {
+#header-input button {
  width: 6rem;
  height: 2.5rem;
  background: rgba(250, 132, 15, 0.945);
@@ -95,38 +95,35 @@ box-sizing: border-box
  height: 23rem
 }
 
-#header3 #one, #header3 #one1 {
+#one, #one1 {
 width: 15%
 }
 
-#header3 #one {
+#one {
+ background: white;
+ padding: -2rem;
+ padding-left: 1rem;
  font-size: .75rem
 }
 
-#header3 #one {
- background: white;
- padding: -2rem;
- padding-left: 1rem
-}
-
-#header3 #one p {
+#one p {
  padding: .15rem;
 }
 
-#header3 #one1 {
+ #one1 {
 height: 23rem;
 }
 
-#header3 #one1 #modal {
+ #modal {
  margin-top: -1.2rem;
  height: 50%
 }
 
-#header3 #one1 #modal img {
+#modal img {
  width: 100%
 }
  
-#header3 #one1 #sell {
+ #sell {
  background: white;
  width: 100%;
  margin-left: .5rem;
@@ -139,17 +136,17 @@ height: 23rem;
  height: 1.9rem
 } 
 
-#header3 .buy {
+ .buy {
 display: flex;
 font-size: .73rem
 }
 
-#header3 .buy span {
+.buy span {
  font-size: .57rem;
  color:  rgb(92, 84, 84)
 }
 
-#header3 #buy1, #header3 #buy1 span {
+#buy1, #buy1 span {
  color:  rgba(250, 132, 15, 0.945);
 }
 
@@ -171,15 +168,13 @@ font-size: .73rem
 
 #header-input input {
  width: 80%;
- font-size: .75rem;
- /* padding-right: .5rem; */
- /* margin: auto; */
- padding-left: 1rem;
- margin-bottom: .5rem;
+ font-size: 50%;
+ padding-left: 1%;
+ margin-bottom: 1%;
  background: white;
 }
 
-#header2 #header2i {
+#header2i {
  display: flex;
  flex-direction: column;
  height: 3%;
@@ -191,7 +186,7 @@ font-size: .73rem
 width: 7rem
 }
 
-#header2 #need {
+ #need {
  display: none
 }
 
@@ -199,7 +194,7 @@ width: 7rem
  display: none
 }
 
-#header2 #header-input {
+#header-input {
  display: flex;
  align-items: center;
  width: 100%;
@@ -214,48 +209,116 @@ width: 7rem
 #header2 {
  height: 3%;
  width: 100%;
- background: #F5F5F5
+ background: white;
+ display: flex;
+ align-items: center
 }
 
 #header-input {
  display: flex;
- width: 60%
- /* flex-direction: column*/
+ width: 60%;
 }
 
 #header-input input {
- width: 80%;
- font-size: .75rem;
- /* padding-right: .5rem; */
- /* margin: auto; */
- padding-left: 1rem;
- margin-bottom: .5rem;
- background: white;
+ width: 65%;
+ font-size: 50%;
+ padding-right: .5rem;
+ margin: auto;
+ padding-left: 2%;
+ margin-bottom: 1%;
+ background: #f5f5f5;
+ /* height: 60% */
 }
 
-#header2 #header2i {
+#header-input button {
+ width: 26%;
+ font-size: 80%;
+ display: flex;
+ padding: 3.3%
+}
+
+#header2i {
  display: flex;
  /* flex-direction: column; */
- height: 3%;
+ height: 2%;
  /* flex-wrap: wrap; */
- width: 80%
+ width: 90%
 }
 
 #header2 img {
 width: 7rem
 }
 
-#header2 #need {
- display: none
+#need {
+ font-size: 65%;
+ padding: 2%
 }
 
 #header3 {
- display: none
+width: 90%
 }
 
-#header2 #header-input {
+#header-input {
  display: flex;
  align-items: center;
  width: 100%;
+ padding: 2%
+}
+
+#one {
+ width: 20%;
+ font-size: 55%;
+ line-height: 250%;
+ /* padding: 2%; */
+ padding-left: -3%;
+ height: 95%;
+}
+
+#delivery {
+ width: 60%;
+ height: 95%;
+}
+
+#delivery img {
+ width: 100%;
+ height: 100%;
+ padding-top: 2%;
+}
+
+#one1 {
+ height: 95%;
+ width: 20%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between
+ /* margin-left: -3% */
+}
+
+#sell, #modal {
+ max-height: 50%
+}
+
+#sell {
+ width: 96%;
+ margin-left: -1%
+}
+
+#modal img {
+ width: 100%;
+ height: 100%;
+}
+
+.buy {
+ width: 100%;
+ height: 30%;
+}
+
+.buy p {
+ font-size: 60%
+}
+
+.buy span {
+ display: none
 }
 }

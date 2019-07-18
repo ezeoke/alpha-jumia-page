@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div id="rightSide">
                     <div id="rowone">
-                        <label id="one">New to JUMIA?</label>
+                        <label id="footer1">New to JUMIA?</label>
                     </div>
                     <div id="rowtwo">
                         <label id="two">Subscribe to our communications to receive special offers and latest news</label>
