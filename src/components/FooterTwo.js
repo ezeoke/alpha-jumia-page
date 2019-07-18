@@ -44,7 +44,7 @@ class FooterTwo extends Component {
                     <p>Mobile Week</p>
                     </div>
              </div>
-            {/* <div id="rowC"> */}
+            <div id="rowC">
                 <div id="beginning">
                 <div class="One">
                     <h4>MAKE MONEY WITH JUMIA</h4>

@@ -240,9 +240,7 @@ width: 7rem
 
 #header2i {
  display: flex;
- /* flex-direction: column; */
  height: 2%;
- /* flex-wrap: wrap; */
  width: 90%
 }
 
