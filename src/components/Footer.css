@@ -228,13 +228,8 @@ margin-left:0px;
     display: none
   }
 
-  #footer-help {
-    display: block;
-    position: relative;
-    left: 35%
+  #foot {
+    display: flex;
+    justify-content: center
   }
-
-  /* #fHelp {
-    display: flex
-  } */
 }

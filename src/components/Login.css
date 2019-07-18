@@ -1,4 +1,4 @@
-#hlogin-eader1 {
+#login-header1 {
  width: 70%;
  margin: auto;
  font-size: 0.7rem;
@@ -19,7 +19,7 @@
  border-bottom: 1px solid #F5F5F5
 }
 
-#login-header2 #login-header2i {
+ #login-header2i {
  display: flex;
  width: 80%;
  height: 80%;
@@ -29,7 +29,7 @@
  height: 4rem;
 }
 
-#login-header2 #login-need {
+#login-need {
  display: flex;
  height: 1rem;
  justify-content: space-between;
@@ -39,7 +39,7 @@
  color: rgb(121, 112, 112)
 }
 
-#login-header2 #login-need span {
+#login-need span {
  font-weight: bold;
  color: black
 }
@@ -49,12 +49,12 @@
  width: 11rem
 }
 
-#login-header2 #login-input {
+#login-input {
  display: flex;
  align-items: center
 }
 
-#login-header2 #login-input input {
+#login-input input {
  width: 35rem;
  height: 2.5rem;
  background: white;
@@ -62,7 +62,7 @@
  padding-left: 1rem
 }
 
-#login-header2 #login-input button {
+#login-input button {
  width: 6rem;
  height: 2.5rem;
  background: rgba(250, 132, 15, 0.945);
@@ -134,4 +134,54 @@
  color: rgba(250, 132, 15, 0.945);
  display: flex;
  align-items: center
+}
+
+@media only screen and (max-width: 480px){
+ #login-up {
+  display: none
+ }
+ 
+ #login-header2i {
+ display: flex;
+ flex-direction: column;
+ height: 15%;
+ flex-wrap: wrap;
+ width: 80%
+ }
+ 
+ #login-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+ }
+ 
+ #login-input input {
+  width: 100%;
+  margin: 2%
+ }
+ 
+ #login-need {
+  display: none
+ }
+
+ #log {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  margin-top: 2%
+ }
+
+ .log1 {
+  width: 100%
+ }
+
+ .log1 input {
+  width: 70%
+ }
+
+ #down {
+  margin: 0
+ }
 }

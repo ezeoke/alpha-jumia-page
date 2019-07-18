@@ -145,10 +145,60 @@ font-size: .87rem;
 }
 
 #signup-header2i {
-display: block;
-height: 15%
+display: flex;
+flex-direction: column;
+height: 15%;
+flex-wrap: wrap;
+width: 80%
 }
 
+#signup-input {
+ display: flex;
+ flex-direction: column;
+ width: 100%
+}
+
+#signup-input input {
+ width: 100%;
+ margin: 2%
+}
+
+#signup-need {
+ display: none
+}
+
+#create {
+ margin-top: 1%;
+ width: 100%
+}
+
+#create h3 {
+ margin-left: 0rem;
+padding-top: 0rem;
+padding-bottom: 0rem;
+text-align: center;
+padding-top: .6%
+}
+
+#signup-input1 {
+ width: 100%
+}
+
+#signup-input1 input {
+ width: 70%
+}
+
+#label {
+ margin: 0;
+ display: flex;
+ align-items: center;
+ width: 70%;
+ margin: auto
+}
+
+#hr #p {
+ display: none
+}
 }
 
  
