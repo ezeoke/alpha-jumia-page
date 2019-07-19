@@ -46,9 +46,8 @@
 #bheader {
   display: flex;
   height:90%;
-
   margin: auto;
-  width: 30%;
+  width: 50%;
   justify-content: space-around;
   align-items: center
 }

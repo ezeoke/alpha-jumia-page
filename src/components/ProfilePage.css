@@ -1,0 +1,16 @@
+#profile {
+ display: flex;
+ justify-content: space-between;
+ width: 70%;
+ /* background: green */
+}
+
+#profile-first {
+ width: 27%;
+ /* background: blue */
+}
+
+#profile-second {
+ width: 67%;
+ /* background: black */
+}
