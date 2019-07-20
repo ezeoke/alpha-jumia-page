@@ -46,9 +46,9 @@
 #bheader {
   display: flex;
   height:90%;
-  margin: auto;
   width: 50%;
-  justify-content: space-around;
+    margin: auto;
+  justify-content: space-between;
   align-items: center
 }
 #mother{
@@ -64,8 +64,6 @@
   display: flex;
   width:70%;
   justify-content: space-between;
-  
- 
 }
 
 #cart {
@@ -95,13 +93,19 @@
   justify-content: space-between;
 }
 
+#bhead1 {
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
 #bhed {
   display: flex;
   background-color: #e6e6e6;
   justify-content: space-around;
-  width: 100%;
+  width: 70%;
+  margin: auto;
   margin-top: 1.5rem;  
-  padding: .5rem
+  /* padding: .5rem */
 }
 
 #apple {
@@ -138,7 +142,7 @@
 
 }
 #rightSide{
-width:40%;
+width: 50%;
 height:70px;
 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -235,16 +239,21 @@ margin-left:0px;
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
   #bhed {
-    width: 100%;
+    width: 90%;
   }
 
   #bheader {
     width: 50%
   }
 
+  #bhed input {
+    height: 60%;
+  }
+
   #bhed #button1, #bhed #button2 {
     width: 50%;
-    margin-left: 2%
+    margin-left: 2%;
+    height: 80%
   }
 
   #bhed #two {

@@ -30,6 +30,7 @@ import axa from './pictures/axa-mansard-2.png';
 const Footer = () => {
     return (
         <div>
+            <div id='bhead1'>
             <div id='bhed'>
                 <div id='bheader'>
                     <div id='cart'>
@@ -67,6 +68,7 @@ const Footer = () => {
                         <input id="button2" type="button" value="Female" />
                     </div>
                 </div>
+            </div>
             </div>
             <div id='footer'>
                 <div id='foot'>

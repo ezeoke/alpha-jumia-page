@@ -64,8 +64,8 @@ import fifthForth from "./pictures/fifthForth.jpg"
 import fifthFifth from "./pictures/fifthFifth.jpg"
 import fifthSixth from "./pictures/fifthSixth.jpg"
 
-import sixthFirst from "./pictures/sixthFirst.jpg"
-import sixthSecond from "./pictures/sixthSecond.jpg"
+// import sixthFirst from "./pictures/sixthFirst.jpg"
+// import sixthSecond from "./pictures/sixthSecond.jpg"
 
 import slideImage1 from "./pictures/slideImage1.jpg"
 import slideImage2 from "./pictures/slideImage2.jpg"
