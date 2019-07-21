@@ -174,11 +174,12 @@
  }
 
  #headerTwo-logo {
-  width: 65%;
+  width: 55%;
   justify-content: space-evenly
  }
 
  #headerTwo-logo a {
-  margin-left: 1%55
+  margin-left: 5%;
+  font-size: 80%
  }
 }

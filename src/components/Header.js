@@ -7,19 +7,36 @@ import sell from './pictures/sell.png';
 import pay from './pictures/Pay-on-delivery.png';
 import easy from './pictures/Easy-return-(1).png';
 import delivery from './pictures/delivery.jpg';
-import './Header.css'
+import './Header.css';
+import deal from "./pictures/deal.png"
+import party from "./pictures/party.png"
+import flights from "./pictures/flights.png"
+import food1 from "./pictures/food1.png"
+import house1 from "./pictures/house1.png"
+import one from "./pictures/one.png"
+import travel1 from "./pictures/travel1.png";
 
 function Header() {
 
   return (
     <div id='header'>
       <div id='header1'>
-        <span>In Partnership with</span> <img src={mtn} alt='mtnLogo' /> &
+        <div id='header-logo'>
+          <span>In Partnership with</span> 
+        <img src={mtn} alt='mtnLogo' /> &
         <img src={axa} alt="axa-mansard" />
+        </div>
+        <div id="header-logo1">
+          <a href="#"><img src={food1} alt="tyl" height="50%" />FOODS</a>
+          <a href="#"><img src={travel1} alt="tyl" height="50%" />TRAVEL</a>
+          <a href="#"><img src={flights} alt="tyl" height="50%" />FLIGHT</a>
+          <a href="#"><img src={deal} alt="tyl" height="50%" />DEALS</a>
+          <a href="#"><img src={house1} alt="tyl" height="50%" />HOUSE</a>
+          <a href="#"><img src={party} alt="tyl" height="50%" />PARTY</a>
+          <a href="#"><img src={one} alt="tyl" height="50%" />ONE</a>
+        </div>
       </div>
-
       <div id='header2'>
-
         <div id='header2i'>
           <img src={jumia} alt="" />
           <div id='header-input'>

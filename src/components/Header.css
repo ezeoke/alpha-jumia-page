@@ -10,11 +10,30 @@ box-sizing: border-box
  font-size: 0.7rem;
  display: flex;
  align-items: center;
- color:  rgb(163, 157, 157)
+ color:  rgb(163, 157, 157);
+ justify-content: flex-start;
+ grid-gap: 5%
 }
 
-#header1 img {
- padding: .4rem
+#header-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  align-items: flex-end
+}
+
+#header-logo1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%
+}
+
+#header-logo1 a {
+  display: flex;
+  align-items: center;
+  color: rgba(250, 132, 15, 0.945);
+  border-bottom: none
 }
 
 #header2 {
