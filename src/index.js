@@ -10,8 +10,9 @@ import AppRouter from './router/AppRouter';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import FooterTwo from "./components/FooterTwo"
+import Error from "./components/Error"
 
-ReactDOM.render(<FooterTwo/>, document.getElementById('root'));
+ReactDOM.render(<Error/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

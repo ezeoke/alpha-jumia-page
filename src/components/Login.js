@@ -21,7 +21,22 @@ import face from './pictures/facebook-logo-button.svg';
 import youtube from './pictures/youtube-logotype.svg';
 import insta from './pictures/instagram-logo.svg';
 import twitter from './pictures/twitter-logo-button.svg';
+import FirstHeader from "./FirstHeader"
+
+import deal from "./pictures/deal.png"
+import party from "./pictures/party.png"
+import flights from "./pictures/flights.png"
+import food1 from "./pictures/food1.png"
+import house1 from "./pictures/house1.png"
+import one from "./pictures/one.png"
+import travel1 from "./pictures/travel1.png"
+import cart1 from "./pictures/cart1.png"
+import human1 from "./pictures/human1.png"
+import question1 from "./pictures/question1.png"
+
+import img5 from "./pictures/img5.png"
 import cart from './pictures/shopping-cart.svg';
+import FooterTwo from './FooterTwo';
 // import {Redirect} from 'react-router-dom';
 // import {NavLink} from 'react-router-dom';
 
@@ -55,31 +70,48 @@ class Login extends React.Component {
     }
     return (
       <div>
-      <div id='up'>
-        <p>Sell on Jumia</p>
-      </div>
+       
+          <FirstHeader />
+          
       <div id='header2'>
 
         <div id='header2i'>
-          <img src={jumiaNew} alt="" />
+          <div id="jumi">
+            <div id="span">
+            <div id="span1"> </div>
+            <div id="span1"> </div>
+            <div id="span1"> </div>
+            </div>
+          <img src={jumiaNew} alt="" height="60%"/>
+          </div>
           <div id='input2'>
             <input type="text" placeholder='Search for products, brands and categories' />
-            <button id='search'>SEARCH</button>
+            <button id='search' style={{border:"1px solid transparent",color:"white"}}>SEARCH</button>
           </div>
           <div id='need'>
             {/* <NavLink to='/login'><h4>Login</h4></NavLink> */}
-            <h4>Help </h4>
-            <h4>Cart</h4>
+            <p id="p1">Login </p >
+            <p id="p1"> Help </p >
+             <p id="p1">Cart</p > 
           </div>
         </div>
       </div>
        <div id='Plog'>
        <div id='log'>
-          <div className='log1'>
+          <div className='log1' id="one">
             <h3>Login</h3>
             <input type="email" placeholder='E-mail' name='sandra' value={this.state.sandra} onChange={this.onChange}/><br />
             <input type="password" placeholder='Password' name='learn' value={this.state.learn} onChange={this.onChange}/>
-            <p>Forgot your password?</p>
+            <div id="lost">
+              <div id="checkbox">
+              <input type="checkbox" id="check"/>
+              <p id="para">Remember me</p>
+
+              </div>
+              
+            <p style={{fontSize:"15px",fontFamily:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",marginTop:"7.5%"}}>Forgot your password?</p>
+            </div>
+            
             <button className='loginA' onClick={this.onHandleChange}>LOGIN</button><br />
             <button className='loginB'>LOGIN WITH FACEBOOK</button>
           </div>
@@ -93,8 +125,8 @@ class Login extends React.Component {
         </div>
        </div>
         <div id='footer'>
-          <div id='foot'>
-            <div>
+          {/* <div id='foot'> */}
+            {/* <div>
               <div>
                 <h3>LET US HELP YOU</h3>
                 <p>Help Center</p>
@@ -154,7 +186,7 @@ class Login extends React.Component {
                 <img src={twitter} alt="" />
               </div>
               <h3>CONTACT US ON</h3>
-              <p>01 888 1100/0700 600 0000</p>
+              <p>01 555 120/0700 600 0000</p>
               <h3>PAYMENT METHODS & DELIVERY PARTNER</h3>
               <div id='pic'>
                 <img src={master} alt="" />
@@ -178,7 +210,8 @@ class Login extends React.Component {
                 <img src={jum1} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
+          <FooterTwo />
         </div>
 
       </div>
