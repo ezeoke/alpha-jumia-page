@@ -36,6 +36,10 @@ box-sizing: border-box
   border-bottom: none
 }
 
+#header-logo1 a:hover {
+  color: blue
+}
+
 #header2 {
  background: white;
  height: 4.5rem;
