@@ -73,19 +73,14 @@ class ProfilePage extends React.Component {
     <HeaderTwo/>
     <div id='profile'>
      <div id='profile-first'>
-      <div id='profile-first1'>
-       <p>My Jumia Account</p>
-      </div>
-      <hr id='profile-hr'/>
+       <p id='profile-first1'>My Jumia Account</p>
       <p>Orders</p>
       <p>Jumia Credit</p>
       <p>Saved Items</p>
-      <hr id='profile-hr'/>
       <p id='profile-first2'>Details</p>
       <p>Address Book</p>
       <p>Change Password</p>
       <p>Newsletter Preferences</p>
-      <hr id='profile-hr'/>
       <p id='profile-log'>LOGOUT</p>
      </div>
      <div id='profile-second'>
@@ -95,7 +90,7 @@ class ProfilePage extends React.Component {
         <div className='profile-wrap1'>
          <h4>ACCOUNT DETAILS</h4>
         </div>
-        <div className='profile-wrap2'>
+        <div className='profile-wrap2 profile-fold'>
          <p>chike Ezeoke</p>
          <p>senatorcuba@gmail.com</p>
          <h4 id='profile-pass'>CHANGE PASSWORD</h4>
@@ -130,7 +125,6 @@ class ProfilePage extends React.Component {
      <div id='profile-h3'>
       <h3>Top selling items</h3>
      </div>
-     <hr id='profile-hr'/>
      <div id='profile-map'>
       {top.map(function (item) {
        return ( 

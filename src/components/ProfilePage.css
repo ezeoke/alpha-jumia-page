@@ -13,7 +13,7 @@
 }
 
 #profile-first p {
- margin-left: 5%
+ padding-left: 5%
 }
 
 #profile-first1 {
@@ -21,14 +21,16 @@
  /* margin-top: -6%*/
  /* line-height: normal; */
  /* max-height: 50% */
+ border-bottom: 1px solid rgb(219, 214, 214);
+ margin-top: 0
 }
 
 #profile-first2 {
- /* border-top: 1px solid rgb(163, 155, 155); */
+ border-top: 1px solid rgb(163, 155, 155);
 }
 
 #profile-log {
- /* border-top: 1px solid rgb(163, 155, 155); */
+ border-top: 1px solid rgb(163, 155, 155);
  padding-top: -5%;
  text-align: center
 }
@@ -62,6 +64,13 @@
 .profile-wrap2 {
  padding-left: 4%;
  max-width: 100%;
+}
+
+.profile-fold {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 100%
 }
 
 #profile-pass {
@@ -101,7 +110,7 @@
 }
 
 #profile-h3 {
- /* border-bottom: 1px solid rgb(219, 214, 214); */
+ border-bottom: 1px solid rgb(219, 214, 214);
  display: flex;
  align-items: center;
  height: 2%;
@@ -114,4 +123,34 @@
 #profile-hr {
  /* font-size: -100px; */
  color: rgb(163, 155, 155);
+}
+
+@media only screen and (max-width: 480px){
+#profile {
+ width: 100%;
+ font-size: 80%
+}
+
+#profile-sell {
+ width: 100%;
+}
+
+#profile-map {
+ font-size: 80%;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #profile {
+  width: 100%;
+  font-size: 80%
+ }
+ 
+ #profile-sell {
+  width: 100%;
+ }
+ 
+ #profile-map {
+  font-size: 80%;
+ }
 }
