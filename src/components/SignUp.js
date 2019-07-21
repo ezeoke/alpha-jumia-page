@@ -1,30 +1,13 @@
 import React from 'react';
 import FooterTwo from './FooterTwo';
 import {NavLink} from 'react-router-dom';
-import jumiaNew from './pictures/jumialogonew.png';
 import './SignUp.css';
+import HeaderTwo from './HeaderTwo';
 
 const SignUp = () => {
   return (
     <div id='resp'>
-      <div id='up'>
-        <p>Sell on Jumia</p>
-      </div>
-      <div id='signup-header2'>
-
-        <div id='signup-header2i'>
-          <img src={jumiaNew} alt="" />
-          <div id='signup-input'>
-            <input type="text" placeholder='Search for products, brands and categories' />
-            <button id='search'>SEARCH</button>
-          </div>
-          <div id='signup-need'>
-            <NavLink to='/login' id='signup-nav'><h4>Login</h4></NavLink>
-            <h4>Help </h4>
-            <h4>Cart</h4>
-          </div>
-        </div>
-      </div>
+    <HeaderTwo/>
       <div id='create'>
         <h3>Create Account</h3>
         <div id='signup-input1'>

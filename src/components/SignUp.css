@@ -1,83 +1,10 @@
-#signup-header2i {
- display: flex;
- width: 80%;
- height: 80%;
- margin: auto;
- justify-content: space-evenly;
- align-items: center;
- height: 4rem;
-}
-
-#signup-need {
- display: flex;
- height: 1rem;
- justify-content: space-between;
- width: 7rem;
- align-items: center;
- font-size: .9rem;
- color: rgb(121, 112, 112)
-}
-
-#signup-need span {
- font-weight: bold;
- color: black
-}
-
-#signup-nav {
- text-decoration: none;
- color: rgb(97, 93, 93)
-}
-
-#signup-header2 img {
- height: 3rem;
- width: 11rem
-}
-
-#signup-input {
- display: flex;
- align-items: center
-}
-
-#signup-input input {
- width: 35rem;
- height: 2.5rem;
- background: white;
- border: none;
- padding-left: 1rem
-}
-
-#signup-input button {
- width: 6rem;
- height: 2.5rem;
- background: rgba(250, 132, 15, 0.945);
- border: none;
- color: white
-}
-
-#up {
- width: 70%;
- margin: auto;
- font-size: .8rem;
- height: 1.5rem;
- color: rgba(250, 132, 15, 0.945);
- display: flex;
- align-items: center
-}
-
 #create {
  background: white;
  margin: auto;
+ padding-bottom: 5rem;
  margin-top: -1rem;
- padding-bottom: 5rem
 }
 
-#search {
- background: rgba(250, 132, 15, 0.945);
- width: 6rem;
- height: 2.5rem;
- border-radius: .4rem;
- margin-left: .5rem
-}
 
 #signup-input1 {
  width: 50%;
@@ -140,33 +67,6 @@ font-size: .87rem;
 }
 
 @media only screen and (max-width: 480px){
-#up {
- display: none
-}
-
-#signup-header2i {
-display: flex;
-flex-direction: column;
-height: 15%;
-flex-wrap: wrap;
-width: 80%
-}
-
-#signup-input {
- display: flex;
- flex-direction: column;
- width: 100%
-}
-
-#signup-input input {
- width: 100%;
- margin: 2%
-}
-
-#signup-need {
- display: none
-}
-
 #create {
  margin-top: 1%;
  width: 100%
@@ -203,51 +103,6 @@ padding-top: .6%
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
- #signup-header2 {
-  height: 3%;
-  width: 100%;
-  background: white;
-  display: flex;
-  align-items: center
- }
- 
- #signup-input {
-  display: flex;
-  width: 60%;
- }
- 
- #signup-input input {
-  width: 65%;
-  font-size: 50%;
-  padding-right: .5rem;
-  margin: auto;
-  padding-left: 2%;
-  margin-bottom: 1%;
-  background: #f5f5f5;
- }
- 
- #signup-input button {
-  width: 26%;
-  font-size: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
- 
- #signup-header2i {
-  display: flex;
-  width: 90%
- }
- 
- #signup-header2 img {
- width: 7rem
- }
- 
- #signup-need {
-  font-size: 65%;
-  padding: 2%
- }
-
  #create {
   width: 90%;
  }

@@ -10,8 +10,9 @@ import AppRouter from './router/AppRouter';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ProfilePage from './components/ProfilePage';
+import HeaderTwo from './components/HeaderTwo';
 
-ReactDOM.render(<ProfilePage></ProfilePage>, document.getElementById('root'));
+ReactDOM.render(<AppRouter/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

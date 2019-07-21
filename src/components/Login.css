@@ -1,81 +1,6 @@
-#login-header1 {
- width: 70%;
- margin: auto;
- font-size: 0.7rem;
- display: flex;
- align-items: center;
- color:  rgb(163, 157, 157)
-}
-
-#login-header img {
- padding: .4rem
-}
-
-.login-header2 {
- background: white;
- height: 4.5rem;
- display: flex;
- align-items: center;
- border-bottom: 1px solid #F5F5F5
-}
-
- #login-header2i {
- display: flex;
- width: 80%;
- height: 80%;
- margin: auto;
- justify-content: space-evenly;
- align-items: center;
- height: 4rem;
-}
-
-#login-need {
- display: flex;
- height: 1rem;
- justify-content: space-between;
- width: 7rem;
- align-items: center;
- font-size: .9rem;
- color: rgb(121, 112, 112)
-}
-
-#login-need span {
- font-weight: bold;
- color: black
-}
-
-#login-header2 img {
- height: 3rem;
- width: 11rem
-}
-
-#login-input {
- display: flex;
- align-items: center
-}
-
-#login-input input {
- width: 35rem;
- height: 2.5rem;
- background: white;
- border: none;
- padding-left: 1rem
-}
-
-#login-input button {
- width: 6rem;
- height: 2.5rem;
- background: rgba(250, 132, 15, 0.945);
- border: none;
- color: white
-}
-
-#loginParent {
- background: white
-}
-
 #Plog {
- background: white
+ background: white;
+ margin-top: .2%
 }
 
 #log {
@@ -133,32 +58,6 @@
 }
 
 @media only screen and (max-width: 480px){
- #login-up {
-  display: none
- }
- 
- #login-header2i {
- display: flex;
- flex-direction: column;
- height: 15%;
- flex-wrap: wrap;
- width: 80%
- }
- 
- #login-input {
-  display: flex;
-  flex-direction: column;
-  width: 100%
- }
- 
- #login-input input {
-  width: 100%;
-  margin: 2%
- }
- 
- #login-need {
-  display: none
- }
 
  #log {
   display: flex;
@@ -183,55 +82,6 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
- #login-header2 {
-  height: 3%;
-  width: 100%;
-  background: white;
-  display: flex;
-  align-items: center
- }
- 
- #login-input {
-  display: flex;
-  width: 60%;
- }
- 
- #login-input input {
-  width: 65%;
-  font-size: 50%;
-  padding-right: .5rem;
-  margin: auto;
-  padding-left: 2%;
-  margin-bottom: 1%;
-  background: #f5f5f5;
- }
- 
- #login-input button {
-  width: 26%;
-  font-size: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
- 
- #login-header2i {
-  display: flex;
-  width: 90%
- }
-
- #login-up {
-  /* height: .003% */
- }
- 
- #login-header2 img {
- width: 7rem
- }
- 
- #login-need {
-  font-size: 65%;
-  padding: 2%
- }
-
  #Plog {
   background: #F5F5F5;
   width: 100%;

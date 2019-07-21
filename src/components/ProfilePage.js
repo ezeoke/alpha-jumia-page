@@ -1,12 +1,13 @@
 import React from 'react';
 import './ProfilePage.css';
-import jumiaNew from './pictures/jumialogonew.png';
+import HeaderTwo from './HeaderTwo';
 import firstFirst from "./pictures/firstFirst.jpg";
 import secondSecond from "./pictures/secondSecond.jpg";
 import thirdFirst from "./pictures/thirdFirst.jpg";
 import forthForth from "./pictures/forthForth.jpg";
 import fifthFirst from "./pictures/fifthFirst.jpg";
 import first1 from "./pictures/first-1.jpg";
+import FooterTwo from '../components/FooterTwo';
 
 class ProfilePage extends React.Component {
  render() {
@@ -69,36 +70,22 @@ class ProfilePage extends React.Component {
 
   return (
    <div>
-    <div id='login-up'>
-     <p>Sell on Jumia</p>
-    </div>
-    <div id='login-header2'>
-
-     <div id='login-header2i'>
-      <img src={jumiaNew} alt="" />
-      <div id='login-input'>
-       <input type="text" placeholder='Search for products, brands and categories' />
-       <button id='search'>SEARCH</button>
-      </div>
-      <div id='login-need'>
-       <h4>Login</h4>
-       <h4>Help </h4>
-       <h4>Cart</h4>
-      </div>
-     </div>
-    </div>
+    <HeaderTwo/>
     <div id='profile'>
      <div id='profile-first'>
       <div id='profile-first1'>
        <p>My Jumia Account</p>
       </div>
+      <hr id='profile-hr'/>
       <p>Orders</p>
       <p>Jumia Credit</p>
       <p>Saved Items</p>
+      <hr id='profile-hr'/>
       <p id='profile-first2'>Details</p>
       <p>Address Book</p>
       <p>Change Password</p>
       <p>Newsletter Preferences</p>
+      <hr id='profile-hr'/>
       <p id='profile-log'>LOGOUT</p>
      </div>
      <div id='profile-second'>
@@ -143,6 +130,7 @@ class ProfilePage extends React.Component {
      <div id='profile-h3'>
       <h3>Top selling items</h3>
      </div>
+     <hr id='profile-hr'/>
      <div id='profile-map'>
       {top.map(function (item) {
        return ( 
@@ -159,6 +147,7 @@ class ProfilePage extends React.Component {
       })}
      </div>
     </div>
+    <FooterTwo/>
    </div>
   )
  }

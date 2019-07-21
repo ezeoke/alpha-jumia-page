@@ -1,6 +1,6 @@
 import React from 'react';
 import FooterTwo from './FooterTwo'
-import jumiaNew from './pictures/jumialogonew.png';
+import HeaderTwo from './HeaderTwo';
 import './Login.css';
 import {Redirect} from 'react-router-dom';
 
@@ -34,24 +34,7 @@ class Login extends React.Component {
     }
     return (
       <div>
-      <div id='login-up'>
-        <p>Sell on Jumia</p>
-      </div>
-      <div id='login-header2'>
-
-        <div id='login-header2i'>
-          <img src={jumiaNew} alt="" />
-          <div id='login-input'>
-            <input type="text" placeholder='Search for products, brands and categories' />
-            <button id='search'>SEARCH</button>
-          </div>
-          <div id='login-need'>
-            <h4>Login</h4>
-            <h4>Help </h4>
-            <h4>Cart</h4>
-          </div>
-        </div>
-      </div>
+      <HeaderTwo/>
        <div id='Plog'>
        <div id='log'>
           <div className='log1'>
