@@ -44,7 +44,6 @@ const Footer = () => {
                         <div id='bhead'>
                             <div id='free'>
                                 <p id="FreeDownload">FREE DOWNLOAD NOW</p>
-                                <div id="curvedEdge"></div>
                             </div>
 
                             <div id='apple'>

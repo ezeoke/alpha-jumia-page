@@ -19,7 +19,7 @@ function Stock(props) {
     {props.stock.stock.map(item => (
      <div id='stockCard'>
       <div id='stockDiscount'>
-       {item.title.discount ? item.title.discount : <p></p>}
+      <h3>{item.title.discount ? item.title.discount : <h4></h4>}</h3>
       </div>
       <img src={item.pics} alt="" />
       <div id='stockTitle'>

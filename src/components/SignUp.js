@@ -1,6 +1,6 @@
 import React from 'react';
 import FooterTwo from './FooterTwo';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 import './SignUp.css';
 import HeaderTwo from './HeaderTwo';
 
@@ -27,7 +27,6 @@ const SignUp = () => {
           </div>
           <button id='signBtn1'>REGISTER WITH FACEBOOK</button>
           <p>Already have an account?</p>
-          <NavLink to='/login' id='signup-nav'>LOGIN</NavLink>
         </div>
       </div>
       <FooterTwo></FooterTwo>

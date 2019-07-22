@@ -3,10 +3,10 @@
   display: flex;
   background: #474646;
   color: white;
-  width: 70%;
+  width: 85%;
   margin: auto;
-  font-size: .72rem;
-  padding: 1.2rem;
+  font-size: 80%;
+  padding: 1.5%;
   /* display: none */
 }
 
@@ -29,7 +29,7 @@
   width: 18rem;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -1rem;
+  margin-left: -2%;
   justify-content: space-evenly
 }
 
@@ -62,8 +62,10 @@
 }
 #bhead {
   display: flex;
-  width:70%;
-  justify-content: space-between;
+  width:80%;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 8%
 }
 
 #cart {
@@ -84,7 +86,7 @@
 
 #free {
   background-color: white;
-  width:70%;
+  width:35%;
   height:17px;
   font-weight: 600;
   font-size: 11px;
@@ -96,13 +98,17 @@
 #bhead1 {
   width: 100%;
   background-color: #e6e6e6;
+  height: 20vh;
+  display: flex;
+  align-items: center
 }
 
 #bhed {
   display: flex;
   background-color: #e6e6e6;
   justify-content: space-around;
-  width: 70%;
+  align-items: center;
+  width: 80%;
   margin: auto;
   margin-top: 1.5rem;  
   /* padding: .5rem */
@@ -111,12 +117,13 @@
 #apple {
   display: flex;
   justify-content: space-between;
-  width:15%;
+  width:25%;
  
 }
 #firstText{
-  font-size: 12px;
-  color:#404040;
+  font-size: 80%;
+  color:#404040;;
+  width: 170%
 }
 #firstTextParent{
   width:90%;
@@ -124,8 +131,10 @@
 
 }
 #secondPart{
-  width:80%;
-
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%
 }
 #curvedEdge{
   width:14px;
@@ -159,8 +168,7 @@ height:33%;
 }
 #rowthree{
   height:35%;
-  width:100%;
- 
+  width:80%;
 }
 
 #footer1{
@@ -243,23 +251,51 @@ margin-left:0px;
   }
 
   #bheader {
-    width: 50%
+    width: 100%
   }
 
-  #bhed input {
-    height: 60%;
+  #bhead1 {
+   height: 28vh
   }
 
-  #bhed #button1, #bhed #button2 {
-    width: 50%;
-    margin-left: 2%;
+  #firstText {
+    font-size: 65%;
+  }
+
+  #bhead {
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 8%;
+  }
+  
+  #two {
+    display: none
+  }
+
+  #rowthree {
+    width: 100%;
+  }
+
+  #input {
+    width: 25%;
     height: 80%
   }
 
-  #bhed #two {
-    font-size: 53%
+  #button2, #button1 {
+    width: 34%;
   }
 
+  #free {
+    font-size: 50%;
+    width: 45%
+  }
+
+  #apple {
+    width: 40%;
+    grid-gap: 9%;
+    justify-content: unset
+  }
+  
   #footer {
     width: 100%;
     margin: auto

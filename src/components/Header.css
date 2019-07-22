@@ -4,35 +4,52 @@ background: #F5F5F5;
 box-sizing: border-box
 }
 
+#header-prime {
+  width: 100%;
+  background: #0059FD
+}
+
+#header-jprime {
+  width: 80%;
+  margin: auto;
+}
+
 #header1 {
- width: 70%;
+ width: 85%;
  margin: auto;
- font-size: 0.7rem;
+ font-size: 70%;
  display: flex;
  align-items: center;
  color:  rgb(163, 157, 157);
  justify-content: flex-start;
- grid-gap: 5%
+ grid-gap: 5%;
+ height: 5vh
 }
 
 #header-logo {
   display: flex;
   justify-content: space-around;
-  width: 25%;
-  align-items: flex-end
+  width: 18%;
+  align-items: center
 }
 
 #header-logo1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%
+  width: 45%;
+  margin-left: -38%
+}
+
+#header-jumia img{
+  height: 10%;
+  width: 15%;
 }
 
 #header-logo1 a {
   display: flex;
   align-items: center;
-  color: rgba(250, 132, 15, 0.945);
+  color: rgb(122, 114, 114);
   border-bottom: none
 }
 
@@ -102,23 +119,22 @@ box-sizing: border-box
 }
 
 #header3 {
- width: 70%;
+ width: 85%;
  display: flex;
  margin: auto ;
  font-size: .75rem;
- height: 23rem;
+ height: 62vh;
  justify-content: unset
 }
 
 #delivery {
  width: 70%;
- margin-top: -.5rem;
- /* margin-left: -.5rem */
+ max-height: 100%
 }
 
 #delivery img {
  width: 100%;
- height: 23rem
+ min-height: 100%
 }
 
 #one, #one1 {
@@ -127,48 +143,49 @@ width: 15%
 
 #one {
  background: white;
- padding: -2rem;
- padding-left: 1rem;
- font-size: .75rem
+ font-size: 95%;
 }
 
 #one p {
- padding: .15rem;
+ padding: 1.4%;
 }
 
  #one1 {
-height: 23rem;
+ height: 62vh;
 }
 
  #modal {
- margin-top: -1.2rem;
- height: 50%
+ height: 60%
 }
 
 #modal img {
- width: 100%
+ width: 100%;
+ height: 100%
 }
  
  #sell {
  background: white;
  width: 100%;
- margin-left: .5rem;
- height: 49%;
- padding-top: 1rem
+ height: 40%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 }
 
 #sell img {
- width: 2rem;
- height: 1.9rem
+ width: 23%;
+ height: 40%
 } 
 
  .buy {
 display: flex;
-font-size: .73rem
+font-size: 80%;
+align-items: center;
+height: 60%
 }
 
 .buy span {
- font-size: .57rem;
+ font-size: 100%;
  color:  rgb(92, 84, 84)
 }
 
@@ -179,6 +196,10 @@ font-size: .73rem
 @media only screen and (max-width: 480px){
  #header1 {
   display: none
+ }
+
+ #header-prime {
+   display: none
  }
 
 #header2 {
@@ -229,8 +250,12 @@ width: 7rem
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 #header1 {
-  width: 100%
+  display: none
  }
+
+ #header-prime {
+  display: none
+}
 
 #header2 {
  height: 3%;
@@ -274,9 +299,9 @@ width: 7rem
 width: 7rem
 }
 
-#need {
+#header2 #need p {
  font-size: 65%;
- padding: 2%
+ padding: 3%
 }
 
 #header3 {
@@ -292,26 +317,23 @@ width: 90%
 
 #one {
  width: 20%;
- font-size: 55%;
- line-height: 250%;
- /* padding: 2%; */
- padding-left: -3%;
- height: 95%;
+ font-size: 80%;
+ height: 100%;
 }
 
 #delivery {
- width: 60%;
- height: 95%;
+ /* width: 60%;*/
+ /* height: 1%;  */
 }
 
 #delivery img {
- width: 100%;
+ /* width: 100%;
  height: 100%;
- padding-top: 2%;
+ padding-top: 2%; */
 }
 
 #one1 {
- height: 95%;
+ height: 100%;
  width: 20%;
  display: flex;
  flex-direction: column;
@@ -321,17 +343,17 @@ width: 90%
 }
 
 #sell, #modal {
- max-height: 50%
+ /* max-height: 50% */
 }
 
 #sell {
- width: 96%;
- margin-left: -1%
+ /* width: 96%;
+ margin-left: -1% */
 }
 
 #modal img {
- width: 100%;
- height: 100%;
+ /* width: 100%;
+ height: 100%; */
 }
 
 .buy {

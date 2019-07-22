@@ -1,11 +1,11 @@
 #starter {
- width: 70%;
+ width: 85%;
  margin: auto;
- margin-bottom: -.5rem ;
- margin-top: 1rem;
- font-size: .8rem;
+ margin-bottom: -1%;
+ margin-top: 1%;
+ font-size: 80%;
  background: white;
- height: 3rem;
+ height: 8vh;
  display: flex;
  align-items: center
 }

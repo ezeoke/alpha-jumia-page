@@ -2,7 +2,7 @@ import React from 'react';
 import FooterTwo from './FooterTwo'
 import HeaderTwo from './HeaderTwo';
 import './Login.css';
-import {Redirect} from 'react-router-dom';
+// import {Redirect} from 'react-router-dom';
 
 class Login extends React.Component {
   state = {
@@ -30,18 +30,27 @@ class Login extends React.Component {
 
   render() {
     if(this.state.login){
-     return (<Redirect to='/'></Redirect>)
+    //  return (<Redirect to='/'></Redirect>)
     }
     return (
       <div>
       <HeaderTwo/>
        <div id='Plog'>
        <div id='log'>
-          <div className='log1'>
+          <div className='log1' id="login-one">
             <h3>Login</h3>
             <input type="email" placeholder='E-mail' name='sandra' value={this.state.sandra} onChange={this.onChange}/><br />
             <input type="password" placeholder='Password' name='learn' value={this.state.learn} onChange={this.onChange}/>
-            <p>Forgot your password?</p>
+            <div id="lost">
+              <div id="checkbox">
+              <input type="checkbox" id="check"/>
+              <p id="para">Remember me</p>
+
+              </div>
+              
+            <p style={{fontSize:"15px",fontFamily:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",marginTop:"7.5%"}}>Forgot your password?</p>
+            </div>
+            
             <button className='loginA' onClick={this.onHandleChange}>LOGIN</button><br />
             <button className='loginB'>LOGIN WITH FACEBOOK</button>
           </div>

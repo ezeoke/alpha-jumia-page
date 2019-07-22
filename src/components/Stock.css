@@ -1,7 +1,7 @@
 #stockHolder {
- width: 70%;
+ width: 85%;
  margin: auto ;
- margin-top: 1.5rem;  
+ margin-top: 2%;  
 }
 
 #stock {
@@ -13,37 +13,42 @@
 
 #stock img {
  width: 100%;
- height: 14rem
+ height: 30vh
 }
 
 #stockCard {
  width: 16.47%;
- height: 20rem;
  background: white;
- font-size: .85rem
+ font-size: 90%;
+ padding-bottom: 1%
 }
 
 #stock h3 {
- margin-top: .4rem;
- margin-bottom: -.8rem                                                                                                                                                         
+ margin-top: 5%;
+ margin-bottom: -10%                                                                                                                                                        
 }
 
 #stockTitle {
- margin: .3rem
+ margin: .2%
+}
+
+#stockTitle del {
+  color: rgba(128, 131, 134, 0.582)
 }
 
 #stockDiscount {
  position: relative;
- top: 17px;
- left: 140px;
+ top: 7%;
+ left: 75%;
  background: rgb(248, 226, 200);
  z-index: 2;
- width: 2rem
+ width: 20%;
+ color: #F9973C;
 }
 
 #stocker {
- margin-bottom: -1rem;
- border-radius: .2rem;
+ margin-bottom: -1%;
+ border-radius: 2.3%;
 }
 
 #stockHead {

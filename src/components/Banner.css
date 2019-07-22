@@ -1,17 +1,16 @@
 #b1-div {
  display: flex;
- /* width: 100%; */
  margin-top: 1.5rem;
  background: white;
  justify-content: space-evenly;
- width: 70%;
+ width: 85%;
  margin: auto   ;
- margin-top: 1.5rem;
+ margin-top: 2%;
 }
 
 #b1-div img {
  width: 49.4%;
- height: 20rem;
+ height: 45vh;
  border-radius: .2rem
 }
 
@@ -20,7 +19,7 @@
   display: block;
   width: 100%;
   margin: auto;
-  margin-top: 1.5rem;
+  margin-top: 2%;
   background: white;
 }
 
@@ -35,7 +34,7 @@
    justify-content: space-between;
    width: 90%;
    margin: auto;
-   margin-top: 1.5rem;
+   margin-top: 2%;
    background: white;
  }
  
