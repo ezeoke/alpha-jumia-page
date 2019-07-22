@@ -1,0 +1,66 @@
+#starter {
+ width: 85%;
+ margin: auto;
+ margin-bottom: -1%;
+ margin-top: 1%;
+ font-size: 80%;
+ background: white;
+ height: 8vh;
+ display: flex;
+ align-items: center
+}
+
+#starter1 {
+ background: white;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 1rem;
+ color: rgba(250, 132, 15, 0.945);
+ width: 100%
+}
+
+#starter-input {
+ width: 30rem;
+ height: 1.5rem;
+ border: 1px rgb(219, 214, 214) solid;
+ color: rgb(219, 214, 214);
+ padding-left: 1rem
+}
+
+.starter-btn {
+ width: 7.5rem;
+ margin-left: .6rem;
+ background: rgba(250, 132, 15, 0.945);
+ text-align: center;
+ font-weight: 700;
+ color: white;
+ border: 1px solid;
+ height: 1.5rem;
+}
+
+@media only screen and (max-width: 480px){
+ #starter {
+  display: none
+ }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+ #starter {
+  width: 90%
+  }
+
+  #starter p {
+   display: none
+  }
+
+  #starter1 {
+   width: 90%;
+   margin: auto
+  }
+
+  #starter input {
+   width: 30%;
+   padding-left: 1%
+  }
+}

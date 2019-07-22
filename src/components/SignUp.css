@@ -1,71 +1,12 @@
-#up {
- width: 70%;
- margin: auto;
- font-size: .8rem;
- height: 1.5rem;
- color: rgba(250, 132, 15, 0.945);
- display: flex;
- align-items: center
-}
-
-/* #header2 {
- background: white;
- height: 4.5rem;
- display: flex;
- align-items: center;
- border-bottom: 1px solid #F5F5F5
-} */
-
-@media only screen and (max-width: 480px){
- /* #up {
-  width: 100%;
-  display: block
- } */
-
- #resp {
-  display: block;
-  /* max-width: 50%; */
- }
-
- /* #header2 {
- display: block;
- width:20%
- } */
-
- body,html {
-  /* overflow-x:  hidden */
-  padding: 0;
-  margin: 0
- }
- 
-}
-
 #create {
  background: white;
  margin: auto;
+ padding-bottom: 5rem;
  margin-top: -1rem;
- padding-bottom: 5rem
- /* width: 50%; */
 }
 
-#input2 input{
- width: 34rem;
- height: 2.18rem;
- background: white;
- border: 1px solid rgb(211, 203, 203);
- border-radius: .25rem;
- padding-left: 1rem
-}
 
-#search {
- background: rgba(250, 132, 15, 0.945);
- width: 6rem;
- height: 2.5rem;
- border-radius: .4rem;
- margin-left: .5rem
-}
-
-#input1 {
+#signup-input1 {
  width: 50%;
  display: flex;
  flex-wrap: wrap;
@@ -73,7 +14,7 @@
  justify-content: space-between;
 }
 
-#input1 input {
+#signup-input1 input {
  border: none;
  border-bottom: 1px solid black;
  width: 40%;
@@ -124,3 +65,77 @@ font-size: .87rem;
  color: white;
  margin-top: 1rem
 }
+
+@media only screen and (max-width: 480px){
+#create {
+ margin-top: 1%;
+ width: 100%
+}
+
+#create h3 {
+ margin-left: 0rem;
+padding-top: 0rem;
+padding-bottom: 0rem;
+text-align: center;
+padding-top: .6%
+}
+
+#signup-input1 {
+ width: 100%;
+ justify-content: center;
+}
+
+#signup-input1 input {
+ width: 70%
+}
+
+#label {
+ margin: 0;
+ display: flex;
+ align-items: center;
+ width: 70%;
+ margin: auto
+}
+
+#hr #p {
+ display: none
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #create {
+  width: 90%;
+ }
+ 
+ #create h3 {
+  margin-left: 0rem;
+ padding-top: 0rem;
+ padding-bottom: 0rem;
+ text-align: center;
+ padding-top: .6%
+ }
+ 
+ #signup-input1 {
+  width: 100%;
+  justify-content: center;
+ }
+ 
+ #signup-input1 input {
+  width: 70%
+ }
+ 
+ #label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto
+ }
+ 
+ #hr #p {
+  display: none
+ }
+}
+
+ 
+ 

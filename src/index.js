@@ -9,12 +9,13 @@ import Login from './components/Login';
 import AppRouter from './router/AppRouter';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import FooterTwo from "./components/FooterTwo"
-import Error from "./components/Error"
+import ProfilePage from './components/ProfilePage';
+import HeaderTwo from './components/HeaderTwo';
 
-ReactDOM.render(<Error/>, document.getElementById('root'));
+ReactDOM.render(<Home/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+ 

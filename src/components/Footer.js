@@ -24,54 +24,55 @@ import twitter from './pictures/twitter-logo-button.svg';
 import cart from './pictures/shopping-cart.svg';
 import apple from './pictures/ios.png';
 import android from './pictures/android.png';
+import mtn from './pictures/mtn.png';
+import axa from './pictures/axa-mansard-2.png';
 
 const Footer = () => {
     return (
         <div>
+            <div id='bhead1'>
             <div id='bhed'>
-                <div id="mother">
                 <div id='bheader'>
-                <div id='cart'>
-                    <img src={imageCart} alt="" />
-                </div>
-
-                <div id="secondPart">
-                    <div id="firstTextParent">
-                    <p id="firstText">Get access to all offers, discounts and deals!</p>
-                    </div>
-                    <div id='bhead'>
-                        <div id='free'>
-                        <p id="FreeDownload">FREE DOWNLOAD NOW</p>
-                        <div id="curvedEdge"></div>
-                        </div>
-                        
-                        <div id='apple'>
-                            <img src={apple} alt="" />
-                            <img src={android} alt="" />
-                        </div>
+                    <div id='cart'>
+                        <img src={imageCart} alt="" />
                     </div>
 
+                    <div id="secondPart">
+                        <div id="firstTextParent">
+                            <p id="firstText">Get access to all offers, discounts and deals!</p>
+                        </div>
+                        <div id='bhead'>
+                            <div id='free'>
+                                <p id="FreeDownload">FREE DOWNLOAD NOW</p>
+                            </div>
+
+                            <div id='apple'>
+                                <img src={apple} alt="" />
+                                <img src={android} alt="" />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
                 <div id="rightSide">
                     <div id="rowone">
-                        <label id="one">New to JUMIA?</label>
+                        <label id="footer1">New to JUMIA?</label>
                     </div>
                     <div id="rowtwo">
-                   <label id="two">Subscribe to our communications to receive special offers and latest news</label>
+                        <label id="two">Subscribe to our communications to receive special offers and latest news</label>
                     </div>
                     <div id="rowthree">
                         <input id="input" type="text" />
-                        <input id="button1" type="button" value="Male"/>
-                        <input  id="button2" type="button" value="Female"/>
+                        <input id="button1" type="button" value="Male" />
+                        <input id="button2" type="button" value="Female" />
                     </div>
                 </div>
-                </div>
+            </div>
             </div>
             <div id='footer'>
                 <div id='foot'>
                     <div>
-                        <div>
+                        <div id='footer-help'>
                             <h3>LET US HELP YOU</h3>
                             <p>Help Center</p>
                             <p>Warranty</p>
@@ -84,7 +85,7 @@ const Footer = () => {
                             <p>Jumia Mobile Apps</p>
                             <p>Jumia Bot(Beta)</p>
                         </div>
-                        <div>
+                        <div className='footer-help'>
                             <h3>MAKE MONEY WITH US</h3>
                             <p>Sell on Jumia</p>
                             <p>Become an Affiliate Partner</p>
@@ -93,19 +94,21 @@ const Footer = () => {
                             <p></p>
                         </div>
                     </div>
-                    <div>
+                    <div className='footer-help'>
                         <h3>GET TO KNOW US</h3>
-                        <p>Careers</p>
-                        <p>About Us</p>
-                        <p>Jumia Express</p>
-                        <p>Shipped From Overseas</p>
-                        <p>Jumia Prime </p>
-                        <p>Terms and Conditions</p>
-                        <p>Privacy Policy</p>
-                        <p>Economy Postal Shipping</p>
+                        {/* <div className='fHelp'> */}
+                            <p>Careers</p>
+                            <p>About Us</p>
+                            <p>Jumia Express</p>
+                            <p>Shipped From Overseas</p>
+                            <p>Jumia Prime </p>
+                            <p>Terms and Conditions</p>
+                            <p>Privacy Policy</p>
+                            <p>Economy Postal Shipping</p>
+                        {/* </div> */}
                     </div>
 
-                    <div>
+                    <div className='footer-help'>
                         <h3>JUMIA INTERNATIONAL</h3>
                         <p>Algeria</p>
                         <p>Cameroun</p>
@@ -119,7 +122,7 @@ const Footer = () => {
                         <p>Tunisia</p>
                         <p>Uganda</p>
                     </div>
-                    <div>
+                    <div className='footer-help'>
                         <h3>JOIN US ON</h3>
                         <div id='media'>
                             <img src={face} alt="" />
@@ -152,6 +155,10 @@ const Footer = () => {
                             <img src={deals} alt="" />
                             <img src={house} alt="" />
                             <img src={jum1} alt="" />
+                            <div id='footer-header1'>
+                                <span>In Partnership with</span> <img src={mtn} alt='mtnLogo' /> &
+        <img src={axa} alt="axa-mansard" />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -5,24 +5,24 @@ import img2 from "./pictures/img2.png"
 import img3 from "./pictures/img3.png"
 
 class FooterTwo extends Component {
-    state = {  }
+
     render() { 
         return ( 
             <div id="house">
             <div id="top">
-            <div id="topinside">
+            <div className='footer2Row'>
             <div id="rowA">
                 <div class="One">
                     <h4>LET US HELP YOU</h4>
                 </div>
                 <div class="Two">
-                    <p><a href="#">Help Center</a></p>
-                    <p><a href="#">Contact us</a></p>
-                       <p><a href="#">How to shop on Jumia?</a></p> 
-                       <p><a href="#">Delivery options and timelines</a></p>
-                       <p><a href="#">How to return a product on Jumia?</a></p>
-                       <p><a href="#">Corporate and bulk purchases</a></p>
-                       <p><a href="#">Jumia Bot (Beta version)</a></p>
+                    <p>Help Center</p>
+                    <p>Contact us</p>
+                       <p>How to shop on Jumia?</p> 
+                       <p>Delivery options and timelines</p>
+                       <p>How to return a product on Jumia?</p>
+                       <p>Corporate and bulk purchases</p>
+                       <p>Jumia Bot (Beta version)</p>
                 </div>
                 <div class="Three"></div>
                 <div class="four"></div>
@@ -34,14 +34,14 @@ class FooterTwo extends Component {
                 <div class="Two">
                      JUMIA
 
-                    <p><a href="#">About us</a></p>
-                    <p><a href="#">Jumia careers</a></p>
-                   <p><a href="#">Jumia Express</a></p>
-                    <p><a href="#">Jumia Global</a></p>
-                    <p><a href="#">Terms and Conditions</a></p>
-                    <p><a href="#">Privacy policy</a></p>
-                    <p><a href="#">Ramadan Shop</a></p>
-                    <p><a href="#">Mobile Week</a></p>
+                    <p>About us</p>
+                    <p>Jumia careers</p>
+                   <p>Jumia Express</p>
+                    <p>Jumia Global</p>
+                    <p>Terms and Conditions</p>
+                    <p>Privacy policy</p>
+                    <p>Ramadan Shop</p>
+                    <p>Mobile Week</p>
                     </div>
              </div>
             <div id="rowC">
@@ -50,11 +50,11 @@ class FooterTwo extends Component {
                     <h4>MAKE MONEY WITH JUMIA</h4>
                 </div>
                 <div class="Two">
-                        <p><a href="#">Sell on Jumia</a></p>
-                       <p> <a href="#">Become an Affiliate Partner</a></p>
-                        <p><a href="#">Become a Sales Consultant</a></p>
-                       <p> <a href="#">Become a Jumia Vendor Service Provider</a></p>
-                       <p> <a href="#">Become a Logistics Service Partner</a></p>
+                        <p>Sell on Jumia</p>
+                       <p> Become an Affiliate Partner</p>
+                        <p>Become a Sales Consultant</p>
+                       <p> Become a Jumia Vendor Service Provider</p>
+                       <p> Become a Logistics Service Partner</p>
                     </div>
                 </div>
                 <div id="end">
@@ -63,19 +63,19 @@ class FooterTwo extends Component {
                     </div>
                     <div id="endbox">
                         <div id="endbox1">
-                        <p><a href="#">Algeria</a></p>
-                        <p><a href="#">Cameroon</a></p>
-                        <p><a href="#">Egypt</a></p>
-                        <p><a href="#">Ghana</a></p>
-                        <p><a href="#">Ivory Coast</a></p>
-                        <p><a href="#">Kenya</a></p>
+                        <p>Algeria</p>
+                        <p>Cameroon</p>
+                        <p>Egypt</p>
+                        <p>Ghana</p>
+                        <p>Ivory Coast</p>
+                        <p>Kenya</p>
                         </div>
                         <div id="endbox2">
-                        <p><a href="#">Morocco</a></p>
-                        <p><a href="#">Senegal</a></p>
-                        <p><a href="#">Tanzania</a></p>
-                        <p><a href="#">Tunisia</a></p>
-                        <p><a href="#">Uganda</a></p>
+                        <p>Morocco</p>
+                        <p>Senegal</p>
+                        <p>Tanzania</p>
+                        <p>Tunisia</p>
+                        <p>Uganda</p>
                         </div>
                     </div>
                 </div>

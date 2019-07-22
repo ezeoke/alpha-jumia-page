@@ -4,17 +4,57 @@ background: #F5F5F5;
 box-sizing: border-box
 }
 
-#header1 {
- width: 70%;
- margin: auto;
- font-size: 0.7rem;
- display: flex;
- align-items: center;
- color:  rgb(163, 157, 157)
+#header-prime {
+  width: 100%;
+  background: #0059FD
 }
 
-#header img {
- padding: .4rem
+#header-jprime {
+  width: 80%;
+  margin: auto;
+}
+
+#header1 {
+ width: 85%;
+ margin: auto;
+ font-size: 70%;
+ display: flex;
+ align-items: center;
+ color:  rgb(163, 157, 157);
+ justify-content: flex-start;
+ grid-gap: 5%;
+ height: 5vh
+}
+
+#header-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 18%;
+  align-items: center
+}
+
+#header-logo1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  margin-left: -38%
+}
+
+#header-jumia img{
+  height: 10%;
+  width: 15%;
+}
+
+#header-logo1 a {
+  display: flex;
+  align-items: center;
+  color: rgb(122, 114, 114);
+  border-bottom: none
+}
+
+#header-logo1 a:hover {
+  color: blue
 }
 
 #header2 {
@@ -22,20 +62,22 @@ box-sizing: border-box
  height: 4.5rem;
  display: flex;
  align-items: center;
- border-bottom: 1px solid #F5F5F5
+ border-bottom: 1px solid #F5F5F5;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0px
 }
 
-#header2 #header2i {
+#header2i {
  display: flex;
  width: 80%;
- height: 80%;
  margin: auto;
  justify-content: space-evenly;
  align-items: center;
  height: 4rem;
 }
 
-#header2 #need {
+#need {
  display: flex;
  height: 1rem;
  justify-content: space-between;
@@ -45,7 +87,7 @@ box-sizing: border-box
  color: rgb(121, 112, 112)
 }
 
-#header2 #need span {
+#need span {
  font-weight: bold;
  color: black
 }
@@ -55,7 +97,12 @@ box-sizing: border-box
  width: 11rem
 }
 
-#header2 #input input {
+#header-input {
+ display: flex;
+ align-items: center
+}
+
+#header-input input {
  width: 35rem;
  height: 2.5rem;
  background: #F5F5F5;
@@ -63,7 +110,7 @@ box-sizing: border-box
  padding-left: 1rem
 }
 
-#header2 #input button {
+#header-input button {
  width: 6rem;
  height: 2.5rem;
  background: rgba(250, 132, 15, 0.945);
@@ -72,53 +119,253 @@ box-sizing: border-box
 }
 
 #header3 {
- width: 70%;
+ width: 85%;
  display: flex;
  margin: auto ;
  font-size: .75rem;
- height: 23rem
+ height: 62vh;
+ justify-content: unset
 }
 
 #delivery {
  width: 70%;
- margin-top: -.5rem;
- margin-left: -.5rem
+ max-height: 100%
 }
 
 #delivery img {
  width: 100%;
- height: 23rem
+ min-height: 100%
 }
 
-#header3 #one, #header3 #one1 {
+#one, #one1 {
 width: 15%
 }
 
-#header3 #one {
+#one {
  background: white;
- padding: -2rem;
- padding-left: 1rem
+ font-size: 95%;
 }
 
-#header3 #one p {
- padding: .15rem;
+#one p {
+ padding: 1.4%;
+}
+
+ #one1 {
+ height: 62vh;
+}
+
+ #modal {
+ height: 60%
+}
+
+#modal img {
+ width: 100%;
+ height: 100%
+}
+ 
+ #sell {
+ background: white;
+ width: 100%;
+ height: 40%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 }
 
 #sell img {
- width: 2rem;
- height: 1.9rem
+ width: 23%;
+ height: 40%
 } 
 
-#header3 .buy {
+ .buy {
 display: flex;
-font-size: .73rem
+font-size: 80%;
+align-items: center;
+height: 60%
 }
 
-#header3 .buy span {
- font-size: .57rem;
+.buy span {
+ font-size: 100%;
  color:  rgb(92, 84, 84)
 }
 
-#header3 #buy1, #header3 #buy1 span {
+#buy1, #buy1 span {
  color:  rgba(250, 132, 15, 0.945);
+}
+
+@media only screen and (max-width: 480px){
+ #header1 {
+  display: none
+ }
+
+ #header-prime {
+   display: none
+ }
+
+#header2 {
+ height: 3%;
+ width: 100%;
+ background: #F5F5F5;
+}
+
+#header-input {
+ display: flex;
+ flex-direction: column
+}
+
+#header-input input {
+ width: 80%;
+ font-size: 50%;
+ padding-left: 1%;
+ margin-bottom: 1%;
+ background: white;
+}
+
+#header2i {
+ display: flex;
+ flex-direction: column;
+ height: 3%;
+ flex-wrap: wrap;
+ width: 100%
+}
+
+#header2 img {
+width: 7rem
+}
+
+ #need {
+ display: none
+}
+
+#header3 {
+ display: none
+}
+
+#header-input {
+ display: flex;
+ align-items: center;
+ width: 100%;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+#header1 {
+  display: none
+ }
+
+ #header-prime {
+  display: none
+}
+
+#header2 {
+ height: 3%;
+ width: 100%;
+ background: white;
+ display: flex;
+ align-items: center
+}
+
+#header-input {
+ display: flex;
+ width: 60%;
+}
+
+#header-input input {
+ width: 65%;
+ font-size: 50%;
+ padding-right: .5rem;
+ margin: auto;
+ padding-left: 2%;
+ margin-bottom: 1%;
+ background: #f5f5f5;
+ /* height: 60% */
+}
+
+#header-input button {
+ width: 26%;
+ font-size: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#header2i {
+ display: flex;
+ height: 2%;
+ width: 90%
+}
+
+#header2 img {
+width: 7rem
+}
+
+#header2 #need p {
+ font-size: 65%;
+ padding: 3%
+}
+
+#header3 {
+width: 90%
+}
+
+#header-input {
+ display: flex;
+ align-items: center;
+ width: 100%;
+ padding: 2%
+}
+
+#one {
+ width: 20%;
+ font-size: 80%;
+ height: 100%;
+}
+
+#delivery {
+ /* width: 60%;*/
+ /* height: 1%;  */
+}
+
+#delivery img {
+ /* width: 100%;
+ height: 100%;
+ padding-top: 2%; */
+}
+
+#one1 {
+ height: 100%;
+ width: 20%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between
+ /* margin-left: -3% */
+}
+
+#sell, #modal {
+ /* max-height: 50% */
+}
+
+#sell {
+ /* width: 96%;
+ margin-left: -1% */
+}
+
+#modal img {
+ /* width: 100%;
+ height: 100%; */
+}
+
+.buy {
+ width: 100%;
+ height: 30%;
+}
+
+.buy p {
+ font-size: 60%
+}
+
+.buy span {
+ display: none
+}
 }

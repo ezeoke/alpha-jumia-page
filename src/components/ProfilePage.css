@@ -1,0 +1,156 @@
+#profile {
+ display: flex;
+ justify-content: space-between;
+ width: 70%;
+ margin: auto;
+ margin-top: .2%
+}
+
+#profile-first {
+ width: 22.2%;
+ background-color: white;
+ line-height: 2.5;
+}
+
+#profile-first p {
+ padding-left: 5%
+}
+
+#profile-first1 {
+ background: #E0E0E0;
+ /* margin-top: -6%*/
+ /* line-height: normal; */
+ /* max-height: 50% */
+ border-bottom: 1px solid rgb(219, 214, 214);
+ margin-top: 0
+}
+
+#profile-first2 {
+ border-top: 1px solid rgb(163, 155, 155);
+}
+
+#profile-log {
+ border-top: 1px solid rgb(163, 155, 155);
+ padding-top: -5%;
+ text-align: center
+}
+
+#profile-second {
+ width: 76.5%;
+ background: white
+}
+
+#profile-wrap {
+ margin-left: 2.3%;
+ margin-bottom: 2%;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ justify-content: flex-start;
+}
+
+.profile-pWrap {
+ width: 43%;
+ border: 1px solid rgb(219, 214, 214);
+ margin: 2%;
+}
+
+.profile-wrap1 {
+ border-bottom: 1px solid rgb(219, 214, 214);
+ padding-left: 4%;
+ max-width: 100%;
+}
+
+.profile-wrap2 {
+ padding-left: 4%;
+ max-width: 100%;
+}
+
+.profile-fold {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 100%
+}
+
+#profile-pass {
+ padding-top: 3%;
+}
+
+#profile-acct {
+ padding-left: 4%
+}
+
+#profile-sell {
+ width: 70%;
+ margin: auto;
+ background: white;
+ margin-top: 1%;
+ margin-bottom: 2%
+}
+
+#profile-map {
+ display: flex;
+ padding-top: 1%;
+ justify-content: space-evenly
+}
+
+#profile-map1 {
+ height: 50%;
+ width: 15%
+}
+
+#profile-map img {
+ height: 100%;
+ width: 100%
+}
+
+#profile-name {
+ font-size: 90%
+}
+
+#profile-h3 {
+ border-bottom: 1px solid rgb(219, 214, 214);
+ display: flex;
+ align-items: center;
+ height: 2%;
+}
+
+#profile-h3 h3 {
+ margin-left: 1%
+}
+
+#profile-hr {
+ /* font-size: -100px; */
+ color: rgb(163, 155, 155);
+}
+
+@media only screen and (max-width: 480px){
+#profile {
+ width: 100%;
+ font-size: 80%
+}
+
+#profile-sell {
+ width: 100%;
+}
+
+#profile-map {
+ font-size: 80%;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+ #profile {
+  width: 100%;
+  font-size: 80%
+ }
+ 
+ #profile-sell {
+  width: 100%;
+ }
+ 
+ #profile-map {
+  font-size: 80%;
+ }
+}

@@ -1,56 +1,156 @@
+#stockHolder {
+ width: 85%;
+ margin: auto ;
+ margin-top: 2%;  
+}
+
 #stock {
  display: flex;
  width: 100%;
  justify-content: space-evenly;
+ background: white;
 }
 
 #stock img {
  width: 100%;
- height: 14rem
+ height: 30vh
 }
 
 #stockCard {
- width: 16%;
- height: 20rem;
+ width: 16.47%;
  background: white;
- font-size: .85rem
+ font-size: 90%;
+ padding-bottom: 1%
 }
 
 #stock h3 {
- margin-top: .4rem;
- margin-bottom: -.8rem
+ margin-top: 5%;
+ margin-bottom: -10%                                                                                                                                                        
 }
 
 #stockTitle {
- margin: .3rem
+ margin: .2%
+}
+
+#stockTitle del {
+  color: rgba(128, 131, 134, 0.582)
 }
 
 #stockDiscount {
  position: relative;
- top: 17px;
- left: 140px;
+ top: 7%;
+ left: 75%;
  background: rgb(248, 226, 200);
  z-index: 2;
- width: 2rem
+ width: 20%;
+ color: #F9973C;
+}
+
+#stocker {
+ margin-bottom: -1%;
+ border-radius: 2.3%;
 }
 
 #stockHead {
- background: #808080;
  height: 3rem;
- margin-top: 1.5rem;
- border-radius: .2rem
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: .8rem
 }
 
 #stockHeader {
  display: flex;
- width: 97%;
- margin: auto;
- justify-content: space-between
+ align-items: center;
+}
+
+#stockHeader h3 {
+ margin-right: .3rem
 }
 
 #stockP {
- display: flex;
- align-items: center;
  width: 5rem;
- justify-content: space-between
+ display: flex;
+ justify-content: space-between;
+ align-items: center
 }
+
+@media only screen and (max-width: 480px){
+ #stockHolder {
+  width: 100%
+ }
+
+ #stock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+ }
+
+ #stockCard {
+  width: 30%;
+  font-size: 70%
+ }
+
+ #stocker {
+  font-size: 60%
+ }
+
+ #stockP {
+  width: 15%;
+  display: flex;
+   justify-content: space-around
+ }
+
+ #stockHeader {
+  width: 80%
+ }
+
+ #stockDiscount {
+  position: relative;
+  top: 17px;
+  left: 0px;
+  background: rgb(248, 226, 200);
+  z-index: 2;
+  width: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  #stockHolder {
+   width: 90%
+  }
+ 
+  #stock {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%
+  }
+ 
+  #stockCard {
+   width: 30%;
+   font-size: 70%
+  }
+ 
+  #stocker {
+   font-size: 60%
+  }
+ 
+  #stockP {
+   width: 11%;
+   display: flex;
+   justify-content: space-around
+  }
+ 
+  #stockHeader {
+   width: 80%
+  }
+ 
+  #stockDiscount {
+   position: relative;
+   top: 17px;
+   left: 0px;
+   background: rgb(248, 226, 200);
+   z-index: 2;
+   width: 1.5rem;
+ }
+ }
