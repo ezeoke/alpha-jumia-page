@@ -40,8 +40,7 @@
 #headerTwo-input input {
  width: 35rem;
  height: 2.5rem;
- background: #F5F5F5;
- border: none;
+ border: 1px solid #F5F5F5;
  padding-left: 1rem
 }
 
@@ -76,7 +75,7 @@
  height: 30%;
  width: 30%;
  display: flex;
- color: rgba(250, 132, 15, 0.945);
+ color: rgb(122, 114, 114);
  justify-content: center
 }
 
@@ -130,6 +129,10 @@
   background: white;
   display: flex;
   align-items: center
+ }
+
+ #headerTwo-up {
+     display: none
  }
  
  #headerTwo-input {

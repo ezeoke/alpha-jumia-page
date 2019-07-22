@@ -1,7 +1,7 @@
 #profile {
  display: flex;
  justify-content: space-between;
- width: 70%;
+ width: 85%;
  margin: auto;
  margin-top: .2%
 }
@@ -9,7 +9,7 @@
 #profile-first {
  width: 22.2%;
  background-color: white;
- line-height: 2.5;
+ line-height: 3.2;
 }
 
 #profile-first p {
@@ -82,7 +82,7 @@
 }
 
 #profile-sell {
- width: 70%;
+ width: 85%;
  margin: auto;
  background: white;
  margin-top: 1%;

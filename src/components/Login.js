@@ -37,7 +37,7 @@ class Login extends React.Component {
       <HeaderTwo/>
        <div id='Plog'>
        <div id='log'>
-          <div className='log1' id="one">
+          <div className='log1' id="login-one">
             <h3>Login</h3>
             <input type="email" placeholder='E-mail' name='sandra' value={this.state.sandra} onChange={this.onChange}/><br />
             <input type="password" placeholder='Password' name='learn' value={this.state.learn} onChange={this.onChange}/>

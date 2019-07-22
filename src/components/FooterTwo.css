@@ -1,6 +1,5 @@
 #house {
   width: 100%;
-  height: 50vh;
   background-color: #353333;
   margin-top: 1vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,7 +45,7 @@ a:visited{
   height: 15%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -1rem
+  margin-top: 1%
 }
 #rowA {
   width: 20%;
@@ -66,16 +65,11 @@ a:visited{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 .Two {
-  font-size: 13px;
+  font-size: 60%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  line-height: 3px;
+  line-height: 90%;
   font-weight: 100;
-}
-.Three {
-
-}
-.Four {
 }
 
 #rowC {
@@ -110,27 +104,27 @@ margin-right: 10%;
 }
 #endbox1{
   width:45%;
-  font-size: 14px;
+  font-size: 60%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  line-height: 3px;
+  line-height: 90%;
   font-weight: 100;
 
 }
 #endbox2{
   width:45%;
-  font-size: 14px;
+  font-size: 60%;
   /* background-color: aquamarine; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  line-height: 3px;
+  line-height: 90%;
   font-weight: 100;
 }
 #best{
   width:100%;
   height:20vh;
 /* background-color: blue; */
-  margin-top: -.5rem
+  margin-top: 2%
 }
 #best1{
   width:100%;
@@ -224,6 +218,6 @@ height:100%;
 }
 
 .One {
-  font-size: 74%
+  font-size: 60%
 }
 }
