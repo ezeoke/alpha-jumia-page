@@ -11,7 +11,7 @@
  display: flex;
  height: 1rem;
  justify-content: space-between;
- width: 7rem;
+ width: 15%;
  align-items: center;
  font-size: .9rem;
  color: rgb(121, 112, 112)
@@ -24,7 +24,7 @@
 
 #headerTwo-nav {
  text-decoration: none;
- color: rgb(97, 93, 93)
+ color: rgb(97, 93, 93);
 }
 
 #headerTwo-header2 img {

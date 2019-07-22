@@ -1,5 +1,5 @@
 import React from 'react';
-// import {NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import jumiaNew from './pictures/jumialogonew.png';
 import deal from "./pictures/deal.png"
 import party from "./pictures/party.png"
@@ -34,7 +34,7 @@ function HeaderTwo() {
             <button id='headerTwo-search'>SEARCH</button>
           </div>
           <div id='headerTwo-need'>
-            {/* <NavLink to='/login' id='headerTwo-nav'><h4>Login</h4></NavLink> */}
+            <NavLink to='/login' id='headerTwo-nav'><h4>Login</h4></NavLink>
             <h4>Help </h4>
             <h4>Cart</h4>
           </div>
